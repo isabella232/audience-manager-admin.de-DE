@@ -1,37 +1,37 @@
 ---
-description: Behälter und Zuordnungen für Drittanbieter von Daten anzeigen oder bearbeiten. Sie können auch die Freigabe mit verschiedenen Datenanbietern aktivieren.
-seo-description: Behälter und Zuordnungen für Drittanbieter von Daten anzeigen oder bearbeiten. Sie können auch die Freigabe mit verschiedenen Datenanbietern aktivieren.
-seo-title: Drittanbieter-Datenanbieter verwalten
-title: Drittanbieter-Datenanbieter verwalten
-uuid: e 41 dc 7 b 2-8 b 06-4 e 81-9 b 3 b -0 f 70 e 2 fd 3275
+description: Anzeigen oder Bearbeiten von Behältern und Zuordnungen für Drittanbieter von Daten. Sie können auch die Freigabe für verschiedene Datenanbieter aktivieren.
+seo-description: Anzeigen oder Bearbeiten von Behältern und Zuordnungen für Drittanbieter von Daten. Sie können auch die Freigabe für verschiedene Datenanbieter aktivieren.
+seo-title: Drittanbieter für Daten verwalten
+title: Drittanbieter für Daten verwalten
+uuid: e41dc7b2-8b06-4e81-9b3b-0f70e2fd3275
 translation-type: tm+mt
 source-git-commit: 10adb6b06160f5a5c4068483b407e5798fc10150
 
 ---
 
 
-# Drittanbieter-Datenanbieter verwalten {#manage-third-party-data-providers}
+# Drittanbieter für Daten verwalten {#manage-third-party-data-providers}
 
-Behälter und Zuordnungen für Drittanbieter von Daten anzeigen oder bearbeiten. Sie können auch die Freigabe mit verschiedenen Datenanbietern aktivieren.
+Anzeigen oder Bearbeiten von Behältern und Zuordnungen für Drittanbieter von Daten. Sie können auch die Freigabe für verschiedene Datenanbieter aktivieren.
 
-1. Klicken **[!UICONTROL Companies]** Sie auf und suchen Sie dann das gewünschte Unternehmen, um dessen [!UICONTROL Profile] Seite anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Companies]**, suchen Sie das gewünschte Unternehmen und klicken Sie darauf, um die zugehörige [!UICONTROL Profile] Seite anzuzeigen.
 
-   Verwenden Sie das [!UICONTROL Search] Feld oder die Seitenumbruchsteuerelemente unten in der Liste, um das gewünschte Unternehmen zu finden. Sie können jede Spalte in auf- oder absteigender Reihenfolge sortieren, indem Sie auf die Kopfzeile der gewünschten Spalte klicken.
+   Verwenden Sie das [!UICONTROL Search] Feld oder die Paginierungssteuerelemente unten in der Liste, um das gewünschte Unternehmen zu finden. Sie können jede Spalte in auf- oder absteigender Reihenfolge sortieren, indem Sie auf die Kopfzeile der gewünschten Spalte klicken.
 1. Click the **[!UICONTROL Third Party Data Providers]** tab.
 
    ![](assets/third_party_providers.png)
 
 1. Klicken Sie auf die Zeile eines Datenanbieters, um Behälter und Zuordnungen für diesen Datenanbieter anzuzeigen oder zu bearbeiten.
 
-   ![Schrittergebnis](assets/third_party_providers_edit.png)
+   ![Schritt-Ergebnis](assets/third_party_providers_edit.png)
 
-1. Wählen Sie **[!UICONTROL Enable Sharing]** aus, um die folgenden Optionen zu aktivieren:
+1. Wählen Sie **[!UICONTROL Enable Sharing]** die folgenden Optionen aus:
 
-   * **Überlappung auf Partnerebene:**
-   * **Modell aktiviert:** Hiermit kann dieses Unternehmen bei der Erstellung algorithmischer Modelle diesen Datenanbieter verwenden.
-   Wenn Sie die Freigabe aktivieren, erhalten Sie Zugriff auf Eigenschaften dieses Datenproviders.
+   * **Überschneidung auf Partnerebene:**
+   * **** Modellverwendung aktiviert: Ermöglicht diesem Unternehmen, diesen Datenanbieter beim Erstellen algorithmischer Modelle zu verwenden.
+   Wenn Sie die Freigabe aktivieren, erhalten Sie Zugriff auf Eigenschaften von diesem Datenanbieter.
 
-1. (Bedingt) Wenn der Behälter für diesen Anbieter aktiviert ist, können Sie Behälter für diesen Datenanbieter auswählen, indem Sie die gewünschten Behälter aus der verfügbaren Liste in die ausgewählte Liste verschieben.
+1. (Bedingt) Wenn der Container für diesen Anbieter aktiviert ist, können Sie Behälter für diesen Datenanbieter auswählen, indem Sie die gewünschten Behälter aus der verfügbaren Liste in die ausgewählte Liste verschieben.
 
-   Sie können diese Aufgabe auch auf der [Seite Behälter](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967) ausführen.
-1. Klicken Sie auf, **[!UICONTROL Save]** wenn Sie Änderungen vorgenommen haben.
+   Sie können diese Aufgabe auch auf der Seite [Behälter](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967) ausführen.
+1. Klicken Sie auf **[!UICONTROL Save]** , wenn Sie Änderungen vorgenommen haben.
