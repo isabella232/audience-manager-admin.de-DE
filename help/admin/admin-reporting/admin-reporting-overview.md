@@ -3,7 +3,7 @@ description: Verwalten Sie Audience Manager-Berichte, indem Sie neue Berichte er
 seo-description: Verwalten Sie Audience Manager-Berichte, indem Sie neue Berichte erstellen oder vorhandene Berichte bearbeiten oder löschen. Sie können auch einen Portalbenutzer als Tableau-Benutzer zuweisen.
 seo-title: Berichterstellung
 title: Berichterstellung
-uuid: d 857044 b -926 d -4862-b 8 bc -799 cb 3 ecca 56
+uuid: d857044b-926d-4862-b8bc-799cb3ecca56
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
 
@@ -20,4 +20,4 @@ Verwalten Sie Audience Manager-Berichte, indem Sie neue Berichte erstellen oder 
 
 Sie können jede Spalte in auf- oder absteigender Reihenfolge sortieren, indem Sie auf die Kopfzeile der gewünschten Spalte klicken.
 
-Verwenden Sie das [!UICONTROL Search] Feld oder die Seitenumbruchsteuerelemente unten in der Liste, um den gewünschten Bericht zu finden.
+Verwenden Sie das [!UICONTROL Search] Feld oder die Paginierungssteuerelemente unten in der Liste, um den gewünschten Bericht zu finden.
