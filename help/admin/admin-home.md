@@ -1,18 +1,18 @@
 ---
-description: Mit dem Admin-Tool von Audience Manager können Sie Unternehmen, Server, Berichte, Formate und Benutzer hinzufügen und konfigurieren. Sie können Ihr persönliches Profil auch anzeigen oder bearbeiten.
-seo-description: Mit dem Admin-Tool von Audience Manager können Sie Unternehmen, Server, Berichte, Formate und Benutzer hinzufügen und konfigurieren. Sie können Ihr persönliches Profil auch anzeigen oder bearbeiten.
-seo-title: Audience Manager Admin Home
-title: Audience Manager Admin Home
-uuid: 4534 b 622-4 c 8 d -4 c 42-8019-1614 faaba 9 d 6
+description: Mit dem Audience Manager Admin-Tool können Sie Unternehmen, Server, Berichte, Formate und Benutzer hinzufügen und konfigurieren. Sie können auch Ihr persönliches Profil anzeigen oder bearbeiten.
+seo-description: Mit dem Audience Manager Admin-Tool können Sie Unternehmen, Server, Berichte, Formate und Benutzer hinzufügen und konfigurieren. Sie können auch Ihr persönliches Profil anzeigen oder bearbeiten.
+seo-title: Audience Manager Admin-Startseite
+title: Audience Manager Admin-Startseite
+uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 translation-type: tm+mt
 source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
 
 ---
 
 
-# Audience Manager Admin Home {#audience-manager-admin-home}
+# Audience Manager Admin-Startseite {#audience-manager-admin-home}
 
-Mit dem Admin-Tool von Audience Manager können Sie Unternehmen, Server, Berichte, Formate und Benutzer hinzufügen und konfigurieren. Sie können Ihr persönliches Profil auch anzeigen oder bearbeiten.
+Mit dem Audience Manager Admin-Tool können Sie Unternehmen, Server, Berichte, Formate und Benutzer hinzufügen und konfigurieren. Sie können auch Ihr persönliches Profil anzeigen oder bearbeiten.
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
@@ -22,11 +22,11 @@ Mit dem Admin-Tool von Audience Manager können Sie Unternehmen, Server, Bericht
        c_home.xml 
      </draft-comment>Zeigen Sie für eine kurze Beschreibung mit dem Mauszeiger auf den jeweiligen Titel. </p> <p> 
      <ul id="ul_A0416FDB65EB4774821C05664E14AB86"> 
-      <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> Verfahren: Autorisieren des kontos Amazon S 3 Bucket Access für Stapelziele</a> </li> 
-      <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> So richten Sie Ihre Ziele für die Export-Cloud ein…</a> </li> 
-      <li id="li_AB7BFF82D42649F3B72DA7737B05E355"><a href="formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE"> HTTP-Format-Makros</a> </li> 
+      <li id="li_C528ED722C7241C8A0F492B250322EA7"><a href="admin-servers/admin-authorize-s3-cross-bucket.md#task_20B12994C5484A9D8CC40DF6F456CBE7"> Verfahren: Kontoübergreifenden Amazon S3-Behälterzugriff für Stapelziele genehmigen</a> </li> 
+      <li id="li_582FD48ADC894E00AE5961E2E80A3A92"><a href="admin-destination-troubleshooting.md#set-up-destinations-export"> Einrichten Ihrer Ziele für den Export von Experience Cloud...</a> </li> 
+      <li id="li_AB7BFF82D42649F3B72DA7737B05E355"><a href="formats/web-formats.md#reference_C392124A5F3F42E49F8AADDBA601ADFE"> HTTP-Formatmakros</a> </li> 
       <li id="li_FEC2B72DC2A04BEAAC36259C0882CECB"><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> API-Anforderungen und Empfehlungen</a> </li> 
-      <li id="li_5994853C069A44B2A1A8F3169119F001"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> Aktivieren von Hadoop Sequenzdateiübertragungen für ausgehende Dateien</a> </li> 
+      <li id="li_5994853C069A44B2A1A8F3169119F001"><a href="formats/enable-outbound-seq.md#concept_526744C9433F40BF8269E18245B2F0BD"> Hadoop-Sequenzdateitransfers für den Ausgang aktivieren</a> </li> 
       <li id="li_EC1DE0200F4B4EA1A7FBAB6A05D9F746"><a href="companies/admin-device-graph-options.md#concept_563615F1018340C683E0EE075F8F639D"> Gerätediagrammoptionen für Unternehmen</a> </li> 
      </ul> </p> </td> 
    <td colname="col2" valign="top"> <p class="head"><b>Versionshinweise</b> </p> 
