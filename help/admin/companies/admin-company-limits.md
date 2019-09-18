@@ -2,7 +2,7 @@
 description: Verwalten Sie die folgenden Beschränkungen für die algorithmischen Modelle, Segmente, Ziele und Eigenschaften des Unternehmens.
 seo-description: Verwalten Sie die folgenden Beschränkungen für die algorithmischen Modelle, Segmente, Ziele und Eigenschaften des Unternehmens.
 seo-title: Unternehmensbeschränkungen verwalten
-title: Unternehmensbeschränkungen verwalten
+title: ' Unternehmensbeschränkungen verwalten'
 uuid: 67a19fb2-8322-47ce-afa4-f6b78c52f814
 translation-type: tm+mt
 source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
