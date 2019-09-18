@@ -1,7 +1,7 @@
 ---
 description: Beispiele für häufig verwendete HTTP-Makrokombinationen.
 seo-description: Beispiele für häufig verwendete HTTP-Makrokombinationen.
-seo-title: Beispiele für HTTP-Format
+seo-title: ' Beispiele für HTTP-Format'
 title: Beispiele für HTTP-Format
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
 translation-type: tm+mt
