@@ -5,7 +5,7 @@ seo-title: Behälter verwalten
 title: Behälter verwalten
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
 translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+source-git-commit: 63d12d92ad7196ac880d249435a7fe312c82280d
 
 ---
 
@@ -18,7 +18,7 @@ Anzeigen oder Bearbeiten von Datenanbietern für Behälter.
 
 >[!NOTE]
 >
->Standardmäßig werden Unternehmen mit einem Behälter erstellt. Sie können weitere Behälter für ein Unternehmen in der Benutzeroberfläche erstellen, in **[!UICONTROL Manage Data > Tags]**.
+>Standardmäßig werden Unternehmen mit einem Behälter erstellt. Sie können weitere Behälter für ein Unternehmen in der Benutzeroberfläche erstellen, in **[!UICONTROL Tools > Tags]**.
 
 1. Klicken Sie auf **[!UICONTROL Companies]**, suchen Sie das gewünschte Unternehmen und klicken Sie darauf, um die zugehörige [!UICONTROL Profile] Seite anzuzeigen.
 
