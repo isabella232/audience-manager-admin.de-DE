@@ -6,25 +6,25 @@ solution-image: assets/aam-icon-24.png
 getting-started-title: Erste Schritte
 getting-started-url: https://helpx.adobe.com/audience-manager/get-started.html
 tutorials-title: Übungen
-tutorials-url: https://helpx.adobe.com/audience-manager/kt/index/aam-videos.html
+tutorials-url: https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/audience-manager-admin.en
 index: false
 translation-type: tm+mt
-source-git-commit: a6af108f2d22ed648e87b09198f34f89ebb5e906
+source-git-commit: b9d0dc2a2daf067435b62e4d2e2bc0784fbe3baf
 
 ---
 
 
 # Metadaten für den internen Gebrauch
 
-Die Datei "metadata.md"enthält Metadaten auf Repo-Ebene, die an die Dateien "TOC.md"des Benutzerhandbuchs im Bericht übergeben werden. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
+Die Datei "metadata.md"enthält Metadaten auf Repo-Ebene, die an die Dateien "TOC.md"des Benutzerhandbuchs im Bericht übergeben werden. Wenn Sie den Inhalt von "metadata.md"für ein Benutzerhandbuch ändern möchten, führen Sie dies in einer beliebigen Datei "TOC.md"durch.
 
-| metadata | what it does |
+| metadata | was es tut |
 |--- |--- |
-| solution-title | Used in article header as link |
-| solution-hub-url | Opens helpx hub page |
-| solution-icon | Displays solution icon next to solution title. Not yet implemented |
-| getting-started-url | Link to helpx getting started page |
-| tutorials-url | Link to video tutorials--either helpx tutorials or KT tutorials |
-| mini-toc-levels | Determines the number of heading levels that appear in right rail. Standardwert ist „2“ |
-| git-repo | Specifies the location of the master repo for internal use |
+| solution-title | Wird in der Artikelüberschrift als Link verwendet |
+| solution-ub-url | Öffnet Helpx Hub-Seite |
+| solution-icon | Zeigt das Lösungssymbol neben dem Lösungstitel an. Noch nicht implementiert |
+| getting-started-url | Link zur Hilfeseite für den Einstieg |
+| tutorials-url | Link zu Videolehrgängen - entweder Helpx-Tutorials oder KT-Tutorials |
+| mini-toc-levels | Legt die Anzahl der Überschriftenebenen fest, die in der rechten Leiste angezeigt werden. Standardwert ist „2“ |
+| git-repo | Gibt den Speicherort des Master-Repo für die interne Verwendung an |
