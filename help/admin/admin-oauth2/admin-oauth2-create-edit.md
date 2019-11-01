@@ -5,7 +5,7 @@ seo-title: OAuth2-Clients
 title: OAuth2-Clients
 uuid: 3e654053-fb2f-4d8f-a53c-b5c3b8dbdaa
 translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -60,7 +60,7 @@ Verwenden Sie die [!UICONTROL OAuth2 Clients] Seite im Audience Manager- [!UICON
 
 Um einen [!UICONTROL OAuth2] Client zu löschen, klicken Sie auf **[!UICONTROL OAuth2 Clients]** und dann auf ![](assets/icon_delete.png) die **[!UICONTROL Actions]** Spalte für den gewünschten Client.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [API-Anforderungen und Empfehlungen](../admin-oauth2/aam-admin-api-requirements.md)
 
