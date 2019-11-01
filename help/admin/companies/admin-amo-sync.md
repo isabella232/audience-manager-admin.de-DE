@@ -5,7 +5,7 @@ seo-title: ID-Synchronisierung mit Media Optimizer
 title: ID-Synchronisierung mit Media Optimizer
 uuid: b741dfa7-2947-4288-b214-79eccf18d53a
 translation-type: tm+mt
-source-git-commit: 40a6ca5d34ec72d8b88bc18f2e2b5390c2ea6f5e
+source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
 
 ---
 
@@ -26,7 +26,7 @@ Die folgende Tabelle beschreibt den Synchronisierungsstatus einer Datenquelle.
 | On (unabhängig von der ID-Dienstversion) | Eine Datenquelle synchronisiert [!DNL AMO] unabhängig von der ID-Dienstversion, wenn: <ul><li>Die Datenquelle wird in der [!UICONTROL Selected Data Sources] Liste angezeigt.</li><li>Das [!DNL AMO] Kontrollkästchen *ist nicht* aktiviert.</li></ul> |
 | On (unabhängig von der ID-Dienstversion) | Eine Datenquelle wird mit [!DNL AMO] dem ID-Dienst Version 2.0 (oder höher) synchronisiert, wenn: <ul><li>Die Datenquelle wird in der [!UICONTROL Selected Data Sources] Liste angezeigt.</li><li>Das [!DNL AMO] Kontrollkästchen *ist* aktiviert.</li></ul> |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Behälter verwalten](../companies/admin-manage-containers.md#task_61DB5CEECC5049DD8D059C642AC3F967)
 
