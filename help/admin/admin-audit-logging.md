@@ -5,7 +5,7 @@ seo-title: Prüfprotokollierung
 title: Prüfprotokollierung
 uuid: null
 translation-type: tm+mt
-source-git-commit: 190ba5c1215782e46c8e544c10679d451fbed134
+source-git-commit: 6c09d99165c1294999f4a4d7ce763082e6d2cb8f
 
 ---
 
@@ -16,11 +16,13 @@ Verwenden Sie [!UICONTROL  Audit Logging] als Erstes, wenn Sie Kundenprobleme de
 
 > [!NOTE]
 >
->[!UICONTROL Audit Logging] befindet sich derzeit in der Entwicklung und kann geändert werden. Bitte protokollieren Sie alle Probleme, mit denen Sie konfrontiert sind [!DNL JIRA] ([!DNL UI] Team)
+> Die [!UICONTROL Audit Logging] Funktionalität und Dokumentation wird derzeit entwickelt und kann geändert werden. Bitte protokollieren Sie alle Probleme, mit denen Sie konfrontiert sind [!DNL JIRA] ([!DNL UI] Team).
 
 ![Prüfprotokollierungsansicht](assets/audit-logging-img.png)
 
-Wählen Sie in der Dropdown-Auswahl **Prüfungstyp** eine der folgenden Optionen:
+<!-- 
+
+In the **Audit Type** drop-down selector, choose between:
 
 * [!UICONTROL Partner]
 * [!UICONTROL User]
@@ -39,25 +41,27 @@ Wählen Sie in der Dropdown-Auswahl **Prüfungstyp** eine der folgenden Optionen
 * [!UICONTROL Model]
 * [!UICONTROL Segment Test Group]
 
-Die **Objekt-ID** ist die ID des gesuchten Elements. Die nachstehende Tabelle zeigt, welche ID in jedem Fall der Objekt-ID entspricht:
+The **Object ID** is the ID of the item you're researching. See the table below for which ID corresponds to the Object ID in each case:
 
-| Prüfungstyp | Objekt-ID |
+Audit Type | Object ID |
 ---------|----------|
-| [!UICONTROL Partner] | Partner-ID - PID |
-| [!UICONTROL User] | Benutzer-ID |
-| [!UICONTROL Group] | B3 |
-| [!UICONTROL Datasource Summary] | Datenquellen-ID |
-| [!UICONTROL General Datasource] | Datenquellen-ID |
-| [!UICONTROL Merge Rule Datasource] | Datenquellen-ID |
-| [!UICONTROL Data Feed] | Datenfeed-ID |
-| [!UICONTROL Data Feed Subscription] | Datenfeed-ID |
-| [!UICONTROL Trait Summary] | SID (Eigenschaft) |
-| [!UICONTROL Trait Rule] | SID (Eigenschaft) |
-| [!UICONTROL Segment Summary] |  |
-| [!UICONTROL Destination Summary] |  |
-| [!UICONTROL Server-to-Server Destination] | Keine |
-| [!UICONTROL Derived Signal] | Keine |
-| [!UICONTROL Model] | Keine |
-| [!UICONTROL Segment Test Group] | Keine |
+ [!UICONTROL Partner] | Partner ID - PID |
+ [!UICONTROL User] | User ID |
+ [!UICONTROL Group] | B3 |
+ [!UICONTROL Datasource Summary] | Data Source ID |
+ [!UICONTROL General Datasource] | Data Source ID |
+ [!UICONTROL Merge Rule Datasource] | Data Source ID |
+ [!UICONTROL Data Feed] | Data Feed ID |
+ [!UICONTROL Data Feed Subscription] | Data Feed ID |
+ [!UICONTROL Trait Summary] | SID (trait) |
+ [!UICONTROL Trait Rule] | SID (trait) |
+ [!UICONTROL Segment Summary] |  |
+ [!UICONTROL Destination Summary] |  |
+ [!UICONTROL Server-to-Server Destination]| N/A |
+ [!UICONTROL Derived Signal] | N/A |
+ [!UICONTROL Model] | N/A |
+ [!UICONTROL Segment Test Group] | N/A |
 
-Verwenden Sie [!UICONTROL Start Date] ([!DNL UTC]) und [!UICONTROL End Date] ([!DNL UTC]), um das Zeitintervall der Protokolle einzugrenzen.
+ Use [!UICONTROL Start Date] ([!DNL UTC]) and [!UICONTROL End Date] ([!DNL UTC]) to narrow down the time interval of the logs.
+
+ -->
