@@ -1,29 +1,32 @@
 ---
 product: audience-manager
 audience: admin
-user-guide-title: Audience Manager Admin-Handbuch
+user-guide-title: Administratorhandbuch zu Audience Manager
 translation-type: tm+mt
-source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
+source-git-commit: 5510710a65beb47cc6e8ee48a64a4efe91e4b904
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 6%
 
 ---
 
 
-# Audience Manager Admin-Handbuch {#admin-guide}
+# Administratorhandbuch zu Audience Manager {#admin-guide}
 
-+ [Audience Manager Admin-Startseite](admin-home.md)
-+ [Anmelden bei Audience Manager Admin](admin-login.md)
++ [Audience Manager Admin Home](admin-home.md)
++ [Bei Audience Manager Admin anmelden](admin-login.md)
 + [Anfordern des funktionalen Administratorzugriffs](admin-access.md)
 + Unternehmen{#companies}
    + [Unternehmen](companies/admin-companies-overview.md)
-   + [Unternehmensprofil erstellen](companies/admin-manage-company-profiles.md)
-   + [Behälter verwalten](companies/admin-manage-containers.md)
-   + [Gerätediagrammoptionen für Unternehmen](companies/admin-device-graph-options.md)
+   + [Erstellen eines Firma-Profils](companies/admin-manage-company-profiles.md)
+   + [Container verwalten](companies/admin-manage-containers.md)
+   + [Gerätediagrammoptionen für Firmen](companies/admin-device-graph-options.md)
    + [ID-Synchronisierung mit Media Optimizer](companies/admin-amo-sync.md)
    + [Erstanbieter-Datenanbieter verwalten](companies/admin-first-party-providers.md)
    + [Drittanbieter für Daten verwalten](companies/admin-third-party-providers.md)
-   + [Unternehmensziele verwalten](companies/admin-manage-company-destinations.md)
-   + [Unternehmensbeschränkungen verwalten](companies/admin-company-limits.md)
-   + [Unternehmensbenutzer verwalten](companies/admin-manage-company-users.md)
+   + [Firmen-Ziele verwalten](companies/admin-manage-company-destinations.md)
+   + [Firmen-Beschränkungen verwalten](companies/admin-company-limits.md)
+   + [Firmen verwalten](companies/admin-manage-company-users.md)
    + [Ausgehende Daten nur nach aktiven Benutzern filtern](companies/outbound-active-user-filter.md)
 + Server{#servers}
    + [Serverübersicht](admin-servers/admin-servers.md)
@@ -41,12 +44,11 @@ source-git-commit: b76aa4a35a5216aabd60d07352a7c4bd2b3e6e32
    + [Dateiformatmakros](formats/file-formats.md)
    + [Dateiformat-Makro-Beispiele](formats/file-format-examples.md)
    + [HTTP-Formatmakros](formats/web-formats.md)
-   + [Beispiele für HTTP-Format](formats/web-format-examples.md)
+   + [Beispiele für HTTP-Formate](formats/web-format-examples.md)
    + [Format erstellen oder bearbeiten](formats/admin-create-format.md)
 + OAuth2-Clients{#oath2-clients}
    + [OAuth2-Clients](admin-oauth2/admin-oauth2-create-edit.md)
    + [API-Anforderungen und Empfehlungen](admin-oauth2/aam-admin-api-requirements.md)
-+ [Integrationsbenutzer](admin-manage-integration-users.md)
 + [Prüfprotokollierung](admin-audit-logging.md)
 + [Mein Profil](admin-my-profile.md)
 + [Fehlerbehebung bei der Zieleinrichtung](admin-destination-troubleshooting.md)
