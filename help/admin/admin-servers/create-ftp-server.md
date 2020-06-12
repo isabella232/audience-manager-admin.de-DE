@@ -1,16 +1,19 @@
 ---
 description: Verwenden Sie die Seite "Server"im Audience Manager Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
 seo-description: Verwenden Sie die Seite "Server"im Audience Manager Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
-seo-title: FTP-Server erstellen oder bearbeiten
-title: FTP-Server erstellen oder bearbeiten
+seo-title: Erstellen und Bearbeiten von FTP-Servern
+title: Erstellen und Bearbeiten von FTP-Servern
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+source-git-commit: e0dc190f8765ec91431a2c02a62c6bf5458c7e3d
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
 
-# FTP-Server erstellen oder bearbeiten {#create-or-edit-an-ftp-server}
+# Erstellen und Bearbeiten von FTP-Servern {#create-or-edit-an-ftp-server}
 
 Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
 
@@ -18,9 +21,9 @@ Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager Admin-Tool, um 
 >
 >Sie müssen die [!UICONTROL DEXADMIN] Rolle haben, um neue Server zu erstellen oder vorhandene Server zu bearbeiten.
 
-1. Um einen neuen Server zu erstellen, klicken Sie auf **[!UICONTROL Servers]** &gt; **[!UICONTROL Create Server]**. To edit an existing server, click the desired server in the **[!UICONTROL Label]** column.
+1. Um einen neuen Server zu erstellen, klicken Sie auf **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Um einen vorhandenen Server zu bearbeiten, klicken Sie auf den gewünschten Server in der **[!UICONTROL Label]** Spalte.
 1. Geben Sie die gewünschte Bezeichnung für diesen Server an.
-1. Wählen Sie aus der **[!UICONTROL Protocol]** Dropdownliste das gewünschte Protokoll aus: **FTP**.
+1. Wählen Sie in der **[!UICONTROL Protocol]** Dropdown-Liste das gewünschte Protokoll aus: **FTP**.
 
    >[!NOTE]
    >
@@ -28,20 +31,20 @@ Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager Admin-Tool, um 
 
 1. Füllen Sie die Felder aus:
 
-   * **[!UICONTROL Type]** : Wählen Sie den gewünschten Verschlüsselungstyp aus: **[!UICONTROL SFTP]** oder **[!UICONTROL FTPs/TLS]**.
-   * **[!UICONTROL Domain]** : Geben Sie die gewünschte Domäne (den Host) für diesen Server an.
-   * **[!UICONTROL Port]** : Geben Sie den gewünschten Anschluss für diesen Server an. Für jeden Verschlüsselungstyp wird der Standardanschluss angezeigt. Sie können den Standardanschluss bei Bedarf ändern.
-   * **[!UICONTROL Remote Path]** : Geben Sie den gewünschten Remote-Pfad für diesen Server an. Wenn Sie dieses Feld leer lassen, legt Audience Manager die Dateien im Standardverzeichnis ab.
-   * **[!UICONTROL .tmp File Rename on Completion]** : Aktivieren Sie diese Option, um die `.tmp` Datei nach Abschluss des Vorgangs umzubenennen.
-   * **[!UICONTROL Filename Suffix]** : Geben Sie den Text an, der an die Dateien angehängt werden soll.
-   * **[!UICONTROL Moved to When Finished]** : Geben Sie den Pfad zu dem Speicherort an, an den die Übertragungsdatei nach Abschluss des Vorgangs verschoben werden soll.
-   * **[!UICONTROL Authentication]** : Geben Sie die gewünschte Serverauthentifizierungsmethode an: **[!UICONTROL Username/Password]** oder **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL Type]:**Wählen Sie den gewünschten Verschlüsselungstyp aus:**[!UICONTROL SFTP]**oder **[!UICONTROL FTPs/TLS]**.
+   * **[!UICONTROL Domain]:**Geben Sie die gewünschte Domäne (den Host) für diesen Server an.
+   * **[!UICONTROL Port]:**Geben Sie den gewünschten Anschluss für diesen Server an. Für jeden Verschlüsselungstyp wird der Standardanschluss angezeigt. Sie können den Standardanschluss bei Bedarf ändern.
+   * **[!UICONTROL Remote Path]:**Geben Sie den gewünschten Remote-Pfad für diesen Server an. Wenn Sie dieses Feld leer lassen, legt Audience Manager die Dateien im Standardverzeichnis ab.
+   * **[!UICONTROL .tmp File Rename on Completion]:**Aktivieren Sie diese Option, um die`.tmp`Datei nach Abschluss des Vorgangs umzubenennen.
+   * **[!UICONTROL Filename Suffix]:**Geben Sie den Text an, der an die Dateien angehängt werden soll.
+   * **[!UICONTROL Moved to When Finished]:**Geben Sie den Pfad zu dem Speicherort an, an den die Übertragungsdatei nach Abschluss des Vorgangs verschoben werden soll.
+   * **[!UICONTROL Authentication]:**Geben Sie die gewünschte Serverauthentifizierungsmethode an:**[!UICONTROL Username/Password]**oder **[!UICONTROL SSH Key]**.
    >[!NOTE]
    >
-   >Vergessen Sie nicht, unser Ego zu weißen [!DNL FTP][!DNL IP]: **52 44 29 204**.
+   >Vergessen Sie nicht, Ihre Liste der zulässigen IPs [!DNL FTP] [!DNL IP] um unsere Adresse zu erweitern: **52 44 29 204**.
 
 1. Zur **[!UICONTROL SSH Key]** Authentifizierung:
-   1. Generieren Sie das Public / Private Key Paar von jedem [!DNL Linux] oder [!DNL Mac] Computer.
+   1. Generieren Sie das Public / Private Key Paar von einem beliebigen [!DNL Linux] oder [!DNL Mac] Computer.
    1. Weisen Sie den **öffentlichen Schlüssel** dem Client zu, um ihn auf dem [!DNL SFTP] Server zu aktualisieren. Sie müssen den gesamten Text des öffentlichen Schlüssels auf ihrem Server einschließen, einschließlich `-----BEGIN RSA PRIVATE KEY-----` und `-----END RSA PRIVATE KEY-----` . Im Gegenzug müssen sie den Benutzernamen angeben, unter dem sie den Schlüssel installieren.
-   1. Aktualisieren Sie das Feld "Benutzername"mit dem vom Client bereitgestellten Feld und das Schlüsselfeld mit dem **privaten Schlüssel**.
+   1. Aktualisieren Sie das Feld &quot;Benutzername&quot;mit dem vom Client bereitgestellten Feld und das Schlüsselfeld mit dem **privaten Schlüssel**.
 1. Klicken Sie auf **[!UICONTROL Create]** , wenn Sie einen neuen Server erstellen, oder klicken Sie auf **[!UICONTROL Update]** , wenn Sie einen vorhandenen Server bearbeiten.
