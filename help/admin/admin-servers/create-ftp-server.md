@@ -5,9 +5,9 @@ seo-title: Erstellen und Bearbeiten von FTP-Servern
 title: Erstellen und Bearbeiten von FTP-Servern
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 translation-type: tm+mt
-source-git-commit: e0dc190f8765ec91431a2c02a62c6bf5458c7e3d
+source-git-commit: 78d694670e7abdc18938c5be729ad499e2647825
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '423'
 ht-degree: 5%
 
 ---
@@ -44,6 +44,9 @@ Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager Admin-Tool, um 
    >Vergessen Sie nicht, Ihre Liste der zulässigen IPs [!DNL FTP] [!DNL IP] um unsere Adresse zu erweitern: **52 44 29 204**.
 
 1. Zur **[!UICONTROL SSH Key]** Authentifizierung:
+   >[!NOTE]
+   >
+   >Stellen Sie beim Konfigurieren der SSH-Schlüsselauthentifizierung sicher, dass Sie stets die öffentlichen und privaten Schlüssel nur im OpenSSH-Format generieren.
    1. Generieren Sie das Public / Private Key Paar von einem beliebigen [!DNL Linux] oder [!DNL Mac] Computer.
    1. Weisen Sie den **öffentlichen Schlüssel** dem Client zu, um ihn auf dem [!DNL SFTP] Server zu aktualisieren. Sie müssen den gesamten Text des öffentlichen Schlüssels auf ihrem Server einschließen, einschließlich `-----BEGIN RSA PRIVATE KEY-----` und `-----END RSA PRIVATE KEY-----` . Im Gegenzug müssen sie den Benutzernamen angeben, unter dem sie den Schlüssel installieren.
    1. Aktualisieren Sie das Feld &quot;Benutzername&quot;mit dem vom Client bereitgestellten Feld und das Schlüsselfeld mit dem **privaten Schlüssel**.
