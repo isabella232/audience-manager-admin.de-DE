@@ -1,21 +1,24 @@
 ---
-description: Auf der Seite "Server"können Sie eine Liste der Server in Ihrer Audience Manager-Konfiguration anzeigen. Sie können vorhandene Server bearbeiten oder löschen oder neue Server erstellen, sofern Ihnen die entsprechenden Benutzerrollen zugewiesen sind.
-seo-description: Auf der Seite "Server"können Sie eine Liste der Server in Ihrer Audience Manager-Konfiguration anzeigen. Sie können vorhandene Server bearbeiten oder löschen oder neue Server erstellen, sofern Ihnen die entsprechenden Benutzerrollen zugewiesen sind.
+description: Verwenden Sie die Seite "Server", um eine Liste von Audience Managern in Ihrer Serverkonfiguration Ansicht. Sie können vorhandene Server bearbeiten oder löschen oder neue Server erstellen, sofern Ihnen die entsprechenden Benutzerrollen zugewiesen sind.
+seo-description: Verwenden Sie die Seite "Server", um eine Liste von Audience Managern in Ihrer Serverkonfiguration Ansicht. Sie können vorhandene Server bearbeiten oder löschen oder neue Server erstellen, sofern Ihnen die entsprechenden Benutzerrollen zugewiesen sind.
 seo-title: Serverübersicht
 title: Serverübersicht
 uuid: 49488bd7-1bea-4863-ba98-73087a2bb6b2
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 4%
 
 ---
 
 
 # Serverübersicht {#servers-overview}
 
-Verwenden Sie die [!UICONTROL Servers] Seite, um eine Liste der Server in Ihrer Audience Manager-Konfiguration anzuzeigen. Sie können vorhandene Server bearbeiten oder löschen oder neue Server erstellen, sofern Ihnen die entsprechenden Benutzerrollen zugewiesen sind.
+Verwenden Sie die [!UICONTROL Servers] Seite, um eine Liste von Servern in Ihrer Audience Manager-Konfiguration Ansicht. Sie können vorhandene Server bearbeiten oder löschen oder neue Server erstellen, sofern Ihnen die entsprechenden Benutzerrollen zugewiesen sind.
 
 <!-- c_servers.xml -->
 
 ![](assets/servers.png)
 
-Sie können jede Spalte in auf- oder absteigender Reihenfolge sortieren, indem Sie auf die Kopfzeile der gewünschten Spalte klicken. Verwenden Sie das [!UICONTROL Search] Feld oder die Paginierungssteuerelemente unten in der Liste, um den gewünschten Server zu finden.
+Sie können jede Spalte in auf- oder absteigender Reihenfolge sortieren, indem Sie auf die Kopfzeile der gewünschten Spalte klicken. Verwenden Sie das [!UICONTROL Search] Feld oder die Paginierungssteuerelemente am unteren Rand der Liste, um den gewünschten Server zu finden.
