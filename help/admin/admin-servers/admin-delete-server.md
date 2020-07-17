@@ -1,18 +1,21 @@
 ---
-description: Verwenden Sie die Seite "Server"im Audience Manager Admin-Tool, um einen vorhandenen Server zu löschen.
-seo-description: Verwenden Sie die Seite "Server"im Audience Manager Admin-Tool, um einen vorhandenen Server zu löschen.
-seo-title: Server löschen
-title: Server löschen
+description: Verwenden Sie die Seite "Server"im Audience Manager-Admin-Tool, um einen vorhandenen Server zu löschen.
+seo-description: Verwenden Sie die Seite "Server"im Audience Manager-Admin-Tool, um einen vorhandenen Server zu löschen.
+seo-title: Löschen von Servern
+title: Löschen von Servern
 uuid: 21d8feeb-a205-43bb-9bc1-9048c918a80a
 translation-type: tm+mt
 source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 16%
 
 ---
 
 
-# Server löschen {#delete-a-server}
+# Löschen von Servern {#delete-a-server}
 
-Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager Admin-Tool, um einen vorhandenen Server zu löschen.
+Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager-Admin-Tool, um einen vorhandenen Server zu löschen.
 
 <!-- t_delete_server.xml -->
 
@@ -25,4 +28,4 @@ Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager Admin-Tool, um 
    ![Schritt-Ergebnis](assets/servers.png)
 
 1. Klicken Sie ![](assets/icon_delete.png) in die **[!UICONTROL Actions]** Spalte des gewünschten Servers.
-1. Klicken Sie auf **[!UICONTROL OK], um den Löschvorgang zu bestätigen.**
+1. Klicken Sie auf **[!UICONTROL OK]**, um den Löschvorgang zu bestätigen.
