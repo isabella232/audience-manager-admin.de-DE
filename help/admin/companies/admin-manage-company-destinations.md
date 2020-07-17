@@ -53,7 +53,7 @@ Fill in the fields in the **[!UICONTROL Basic Settings]** window.
    * **[!UICONTROL Integration Code Value]:**Wenn Sie diese Einstellung auswählen, wird die Zuordnung des Zielwerts mit dem[!DNL Audience Manager]Segmentintegrationscode gefüllt.
 * **[!UICONTROL User ID Key]:**(Erforderlich) Wählen Sie in der Dropdown-Liste den gewünschten Benutzer-ID-Schlüssel für dieses Ziel aus.
 
-Diese ID wird als Master-Datenquellen-ID verwendet. Dadurch werden die Benutzer-IDs festgelegt, die in der Datei ausgebrochen werden sollen.
+Diese ID wird als Übergeordnet-Datenquellen-ID verwendet. Dadurch werden die Benutzer-IDs festgelegt, die in der Datei ausgebrochen werden sollen.
 
 >[!NOTE]
 >
