@@ -1,26 +1,29 @@
 ---
-description: Verwenden Sie die Seite "Server"im Audience Manager Admin-Tool, um einen neuen S3-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
-seo-description: Verwenden Sie die Seite "Server"im Audience Manager Admin-Tool, um einen neuen S3-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
-seo-title: S3-Server erstellen oder bearbeiten
-title: S3-Server erstellen oder bearbeiten
+description: Verwenden Sie die Seite "Server"im Audience Manager-Admin-Tool, um einen neuen S3-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
+seo-description: Verwenden Sie die Seite "Server"im Audience Manager-Admin-Tool, um einen neuen S3-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
+seo-title: Erstellen und Bearbeiten von S3-Servern
+title: Erstellen und Bearbeiten von S3-Servern
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
 translation-type: tm+mt
 source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 9%
 
 ---
 
 
-# S3-Server erstellen oder bearbeiten {#create-or-edit-an-s-server}
+# Erstellen und Bearbeiten von S3-Servern {#create-or-edit-an-s-server}
 
-Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager Admin-Tool, um einen neuen [!DNL S3] Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
+Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager Admin Tool, um einen neuen [!DNL S3] Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
 
 >[!NOTE]
 >
 >Sie müssen die [!UICONTROL DEXADMIN] Rolle haben, um neue Server zu erstellen oder vorhandene Server zu bearbeiten.
 
-1. Um einen neuen Server zu erstellen, klicken Sie auf **[!UICONTROL Servers]** &gt; **[!UICONTROL Create Server]**. To edit an existing server, click the desired server in the **[!UICONTROL Label]** column.
+1. Um einen neuen Server zu erstellen, klicken Sie auf **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Um einen vorhandenen Server zu bearbeiten, klicken Sie auf den gewünschten Server in der **[!UICONTROL Label]** Spalte.
 1. Geben Sie die gewünschte Bezeichnung für diesen Server an.
-1. Wählen Sie aus der **[!UICONTROL Protocol]** Dropdownliste das gewünschte Protokoll aus: **[!UICONTROL S3]**.
+1. Wählen Sie in der **[!UICONTROL Protocol]** Dropdown-Liste das gewünschte Protokoll aus: **[!UICONTROL S3]**.
 
    >[!NOTE]
    >
@@ -28,10 +31,10 @@ Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager Admin-Tool, um 
 
 1. Füllen Sie die Felder aus:
 
-   * **[!UICONTROL Account]** : Geben Sie das gewünschte [!DNL S3] Konto an.
-   * **[!UICONTROL Bucket]** : Geben Sie den gewünschten [!DNL S3] Behälter an.
-   * **[!UICONTROL Directory]** : Geben Sie den gewünschten [!DNL S3] Ordner an.
-   * **[!UICONTROL Access Key]** : Geben Sie den gewünschten [!DNL S3] Zugriffsschlüssel an.
-   * **[!UICONTROL Secret Key]** : Geben Sie den gewünschten [!DNL S3] geheimen Schlüssel an.
+   * **[!UICONTROL Account]:**Geben Sie das gewünschte[!DNL S3]Konto an.
+   * **[!UICONTROL Bucket]:**Geben Sie den gewünschten[!DNL S3]Behälter an.
+   * **[!UICONTROL Directory]:**Geben Sie den gewünschten[!DNL S3]Ordner an.
+   * **[!UICONTROL Access Key]:**Geben Sie den gewünschten[!DNL S3]Zugriffsschlüssel an.
+   * **[!UICONTROL Secret Key]:**Geben Sie den gewünschten[!DNL S3]geheimen Schlüssel an.
 
 1. Klicken Sie auf **[!UICONTROL Create]** , wenn Sie einen neuen Server erstellen, oder klicken Sie auf **[!UICONTROL Update]** , wenn Sie einen vorhandenen Server bearbeiten.
