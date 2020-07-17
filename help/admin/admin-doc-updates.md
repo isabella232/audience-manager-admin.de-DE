@@ -1,12 +1,12 @@
 ---
 description: Alle Aktualisierungen (Ergänzungen, Streichungen und Korrekturen) des Audience Manager Admin-Handbuchs nach Datum.
 seo-description: Alle Aktualisierungen (Ergänzungen, Streichungen und Korrekturen) des Audience Manager Admin-Handbuchs nach Datum.
-seo-title: Dokumentation – Aktualisierungen
-title: Dokumentation – Aktualisierungen
+seo-title: Aktualisierungen der Dokumentation
+title: Aktualisierungen der Dokumentation
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e60aa0ac341d74454bfe00a4f56add3a9f9e281b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 100%
 
