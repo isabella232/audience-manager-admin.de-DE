@@ -1,6 +1,6 @@
 ---
-description: Verwenden Sie die Seite "Server"im Audience Manager Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
-seo-description: Verwenden Sie die Seite "Server"im Audience Manager Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
+description: Verwenden Sie die Seite "Server"im Audience Manager-Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
+seo-description: Verwenden Sie die Seite "Server"im Audience Manager-Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
 seo-title: Erstellen und Bearbeiten von FTP-Servern
 title: Erstellen und Bearbeiten von FTP-Servern
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 # Erstellen und Bearbeiten von FTP-Servern {#create-or-edit-an-ftp-server}
 
-Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
+Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager-Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
 
 >[!NOTE]
 >
@@ -34,11 +34,12 @@ Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager Admin-Tool, um 
    * **[!UICONTROL Type]:**Wählen Sie den gewünschten Verschlüsselungstyp aus:**[!UICONTROL SFTP]**oder **[!UICONTROL FTPs/TLS]**.
    * **[!UICONTROL Domain]:**Geben Sie die gewünschte Domäne (den Host) für diesen Server an.
    * **[!UICONTROL Port]:**Geben Sie den gewünschten Anschluss für diesen Server an. Für jeden Verschlüsselungstyp wird der Standardanschluss angezeigt. Sie können den Standardanschluss bei Bedarf ändern.
-   * **[!UICONTROL Remote Path]:**Geben Sie den gewünschten Remote-Pfad für diesen Server an. Wenn Sie dieses Feld leer lassen, legt Audience Manager die Dateien im Standardverzeichnis ab.
+   * **[!UICONTROL Remote Path]:**Geben Sie den gewünschten Remote-Pfad für diesen Server an. Wenn Sie dieses Feld leer lassen, platziert Audience Manager die Dateien im Standardverzeichnis.
    * **[!UICONTROL .tmp File Rename on Completion]:**Aktivieren Sie diese Option, um die`.tmp`Datei nach Abschluss des Vorgangs umzubenennen.
    * **[!UICONTROL Filename Suffix]:**Geben Sie den Text an, der an die Dateien angehängt werden soll.
    * **[!UICONTROL Moved to When Finished]:**Geben Sie den Pfad zu dem Speicherort an, an den die Übertragungsdatei nach Abschluss des Vorgangs verschoben werden soll.
    * **[!UICONTROL Authentication]:**Geben Sie die gewünschte Serverauthentifizierungsmethode an:**[!UICONTROL Username/Password]**oder **[!UICONTROL SSH Key]**.
+
    >[!NOTE]
    >
    >Vergessen Sie nicht, Ihre Liste der zulässigen IPs [!DNL FTP] [!DNL IP] um unsere Adresse zu erweitern: **52 44 29 204**.
