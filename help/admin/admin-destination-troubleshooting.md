@@ -1,18 +1,21 @@
 ---
-description: Informationen, die Sie beim Einrichten von Zielen in Audience Manager unterstützen und allgemeine Probleme vermeiden.
-seo-description: Informationen, die Sie beim Einrichten von Zielen in Audience Manager unterstützen und allgemeine Probleme vermeiden.
+description: Informationen, die Sie bei der Einrichtung von Zielen in Audience Manager unterstützen und häufig auftretende Probleme vermeiden.
+seo-description: Informationen, die Sie bei der Einrichtung von Zielen in Audience Manager unterstützen und häufig auftretende Probleme vermeiden.
 seo-title: Fehlerbehebung bei der Zieleinrichtung
 title: Fehlerbehebung bei der Zieleinrichtung
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 translation-type: tm+mt
 source-git-commit: 118e8fa3f35bc77846c6518268448d57d779a2ee
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 4%
 
 ---
 
 
 # Fehlerbehebung bei der Zieleinrichtung {#destination-setup-troubleshooting}
 
-Informationen, die Sie beim Einrichten von Zielen in Audience Manager unterstützen und allgemeine Probleme vermeiden.
+Informationen, die Sie bei der Einrichtung von Zielen in Audience Manager unterstützen und häufig auftretende Probleme vermeiden.
 
 ## Ich habe ein Ziel eingerichtet, sehe aber keine Dateien. Wo sind sie? {#destination-no-files}
 
@@ -22,8 +25,8 @@ Häufige Probleme bei der Konfiguration von Zielen sind unter anderem folgende:
 
 ### Fehlkonfiguriertes Ziel
 
-* **[!UICONTROL UserID]Falscher** Schlüssel: Der [!UICONTROL UserID] Schlüssel ist der [!UICONTROL MasterDPID] Wert dieses Ziels und die Grundlage für die ID-Werte, die überschrieben werden. Selbst wenn ein [!UICONTROL UserID] Schlüssel über die Dropdownliste auswählbar ist, bedeutet dies nicht unbedingt, dass diesem Wert IDs/Eigenschaften/Segmente zugeordnet sind. Wenn der [!UICONTROL Outbound] Prozess (der nach dem Erstellen von Zielen ausgeführt wird) keine Benutzer findet, die diesem [!UICONTROL UserID] Schlüssel zugeordnet sind, werden keine Daten überschrieben.
-* **** Keine Auswahl in Dateidatenquellen: Bei Auswahl eines anderen Zieltyps als [!UICONTROL S2S]wird unten auf dem Bildschirm ein Abschnitt mit der Bezeichnung [!UICONTROL Configure Data Sources]. Wenn dieser Abschnitt zum ersten Mal angezeigt wird, werden keine Werte ausgewählt. Wenn Sie vergessen haben, auf das [!UICONTROL All First Party] Kontrollkästchen zu klicken oder Datenquellen einzeln aus dem [!UICONTROL Available Data Sources] Fenster auszuwählen, werden keine Daten mehr ausgegeben.
+* **Falscher[!UICONTROL UserID]Schlüssel:** Der [!UICONTROL UserID] Schlüssel ist der [!UICONTROL MasterDPID] Wert dieses Ziels und die Grundlage für die ID-Werte, die überschrieben werden. Auch wenn ein [!UICONTROL UserID] Schlüssel über die Dropdown-Liste auswählbar ist, bedeutet dies nicht unbedingt, dass diesem Wert IDs/Eigenschaften/Segmente zugeordnet sind. Wenn der [!UICONTROL Outbound] Prozess (der nach dem Erstellen von Zielen ausgeführt wird) keine Benutzer findet, die diesem [!UICONTROL UserID] Schlüssel zugeordnet sind, werden keine Daten überschrieben.
+* **Keine Auswahl in Dateidatenquellen:** Bei Auswahl eines anderen Zieltyps als [!UICONTROL S2S]wird am unteren Rand des Bildschirms ein Abschnitt mit der Bezeichnung [!UICONTROL Configure Data Sources]. Wenn dieser Abschnitt zum ersten Mal angezeigt wird, werden keine Werte ausgewählt. Wenn Sie vergessen haben, auf das [!UICONTROL All First Party] Kontrollkästchen zu klicken oder Datenquellen einzeln aus dem [!UICONTROL Available Data Sources] Fenster auszuwählen, werden keine Daten mehr ausgegeben.
 
 ### Nicht konfiguriertes Format
 
@@ -40,7 +43,7 @@ Weitere Informationen zum Einrichten von Formaten und zum Verwenden von Makros f
       * Bei einer [!DNL FTP] Überweisung ist der bevorzugte Transfertyp [!DNL SFTP].
       * Bei der Auswahl des [!DNL SFTP] Typs ist der Anschluss fast immer 22.
       * Bei der Auswahl des [!DNL FTPs/TLS] Typs ist der Anschluss fast immer 21.
-      * Der [!DNL FTPs/TLS] Typ ist nicht mit dem regulären [!DNL FTP] Transfer identisch. Wir unterstützen keine regelmäßigen (unbesicherten) [!DNL FTP] Überweisungen.
+      * Der [!DNL FTPs/TLS] Typ ist nicht mit dem regulären [!DNL FTP] Transfer identisch. Regelmäßige (unbesicherte) [!DNL FTP] Überweisungen werden nicht unterstützt.
    * **[!UICONTROL Remote Path]**
       * Bei der Auswahl eines Remote-Unterpfads sollte dieser ohne Schrägstrich eingegeben werden.
       * Wenn Ihre übertragene Datei im [!DNL (root)/inbound] Unterordner abgelegt werden soll, fügen Sie einfach [!DNL inbound] den Remote-Pfad hinzu, nicht [!DNL /inbound].
@@ -64,7 +67,7 @@ Weitere Informationen zum Einrichten von Formaten und zum Verwenden von Makros f
          * Lassen Sie beim Hinzufügen eines [!DNL URL] Präfix den vorhergehenden Schrägstrich deaktiviert. Eine Adresse von [!DNL https://hello.com/r/x/y/z] hätte [!DNL https://hello.com] in das [!UICONTROL Domain] Feld eingegeben und [!DNL r/x/y/z] hier in das [!UICONTROL URL Prefix] Feld eingegeben werden sollen.
          * Wenn kein Wert erforderlich [!UICONTROL URL Prefix] ist, lassen Sie diesen Wert leer.
       * **[!UICONTROL Authentication - SSH Key]**
-         * Geben Sie den vollständigen `SSH PRIVATE` Schlüsselwert in dieses Feld ein, einschließlich Kopf- und Fußzeilen sowie Zeilenumbrüchen, um eine genaue Verschlüsselung/Schlüsselspeicherung sicherzustellen.
+         * Geben Sie den vollständigen `SSH PRIVATE` Schlüsselwert in dieses Feld ein, einschließlich Kopf- und Fußzeilen sowie Zeilenumbrüchen, um eine exakte Verschlüsselung/Key-Datenspeicherung sicherzustellen.
 
 ### Nicht genügend Zeit für die Generierung nach dem Auslaufen
 
@@ -72,34 +75,34 @@ Der Prozess wird zweimal täglich ausgeführt, und es werden mehrere Prozesse au
 
 ### Dateiaufteilungsgrößen zu groß
 
-Wenn Sie Dateien an Zielorte auslagern, können Sie größere ausgehende Dateien in Dateiblöcke aufteilen. Achten Sie darauf, dass die einzelnen Dateiabschnitte 10 GB nicht überschreiten. Siehe auch Name der [ausgehenden Datendatei: Syntax und Beispiele](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
+Wenn Sie Dateien an Zielorte auslagern, können Sie größere ausgehende Dateien in Dateiblöcke aufteilen. Achten Sie darauf, dass die einzelnen Dateiabschnitte 10 GB nicht überschreiten. See also, [Outbound Data File Name: Syntax and Examples](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
 
 
-## Einrichten Ihrer Ziele für den Export von Experience Cloud IDs, Kunden-IDs oder Audience Manager-IDs in ausgehenden Datendateien {#set-up-destinations-export}
+## Einrichten Ihrer Ziele zum Exportieren von Experience Cloud-IDs, Kunden-IDs oder Audience Manager-IDs in ausgehenden Datendateien {#set-up-destinations-export}
 
-Diese Seite zeigt Ihnen, wie Sie Ziele einrichten, um Daten zu exportieren, die vom gewünschten ID-Typ [!UICONTROL Outbound Data Files]abgeschnitten wurden.
+This page shows you how to set up destinations to export data keyed off the ID type you want in [!UICONTROL Outbound Data Files].
 
 <!-- set-up-destinations-mcid-aamid.xml -->
 
-Ziele ermöglichen es unseren Kunden, ihre Daten über eine beliebige Anzahl digitaler Kanäle zu aktivieren. Sie können beispielsweise Zielgruppendaten in andere [!DNL Adobe Experience Cloud] Lösungen ([!DNL Target], [!DNL Campaign]usw.) exportieren. Oder sie können Daten an [!UICONTROL DSP]s, [!UICONTROL SSP]s oder eine beliebige Plattform senden, die in Audience Manager integriert ist. Eine Liste der Partner, mit denen wir arbeiten, finden Sie auf unserer Wiki-Seite [Integrationen](https://wiki.corp.adobe.com/display/MCPI).
+Ziele ermöglichen es unseren Kunden, ihre Daten über eine beliebige Anzahl digitaler Kanal zu aktivieren. Sie können beispielsweise Audiencen in andere [!DNL Adobe Experience Cloud] Lösungen exportieren ([!DNL Target], [!DNL Campaign]usw.). Oder sie können Daten an [!UICONTROL DSP]s, [!UICONTROL SSP]s oder eine beliebige Plattform senden, die in Audience Manager integriert ist. Wir führen eine Liste von Partnern, mit denen wir arbeiten, auf unserer Wiki-Seite [Integrationen](https://wiki.corp.adobe.com/display/MCPI).
 
 >[!NOTE]
 >
->Eine ausführliche Anleitung zum Erstellen von Zielen in der Admin-Benutzeroberfläche finden Sie im Artikel [Unternehmensziele](companies/admin-manage-company-destinations.md#create-edit-company-destinations) erstellen oder bearbeiten.
+>Eine ausführliche Anleitung zum Erstellen von Zielen in der Admin-Benutzeroberfläche finden Sie im Artikel [Erstellen oder Bearbeiten von Firmen-Zielen](companies/admin-manage-company-destinations.md#create-edit-company-destinations) .
 
-Ihre Kunden möchten je nach Ziel unterschiedliche ID-Typen exportieren. Das folgende Konfigurationstabelle zeigt die Optionen, die Sie auswählen sollten, um Profilinformationen zu verschiedenen ID-Typen zu exportieren. Es wird empfohlen, auch auf den [ID-Index in Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html)zu verweisen. Es gibt drei wichtige Einstellungen zu beachten: die [!UICONTROL User ID Key], die [!UICONTROL Data Source Type] und die [!UICONTROL Format]. Wir führen alle unten auf.
+Ihre Kunden möchten je nach Ziel unterschiedliche ID-Typen exportieren. Das folgende Konfigurationstabelle zeigt die Optionen, die Sie auswählen sollten, um Profil-Informationen zu verschiedenen ID-Typen zu exportieren. Es wird empfohlen, auch auf den [IDs-Index in Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html)zu verweisen. Es gibt drei wichtige Einstellungen zu beachten: die [!UICONTROL User ID Key], die [!UICONTROL Data Source Type] und die [!UICONTROL Format]. Wir führen alle unten auf.
 
-* [!UICONTROL User ID Key]. Gehen Sie [!UICONTROL Admin UI]zu **[!UICONTROL Companies]**. Suchen Sie nach dem Unternehmen Ihres Kunden und klicken Sie darauf. Suchen Sie nach der **[!UICONTROL Destinations]** Registerkarte und drücken Sie **[!UICONTROL Add Destination]**. Wählen Sie im **[!UICONTROL Add Destination]** Workflow die Option [!UICONTROL User ID Key]. Die [!UICONTROL User ID Key] Filter filtern die eingehenden IDs aus der Zieldatenquelle und lassen nur die Weiterleitung der IDs zu.
+* [!UICONTROL User ID Key]. Gehen Sie [!UICONTROL Admin UI]zu **[!UICONTROL Companies]**. Suchen Sie nach der Firma Ihres Kunden und klicken Sie darauf. Suchen Sie nach der **[!UICONTROL Destinations]** Registerkarte und drücken Sie **[!UICONTROL Add Destination]**. Wählen Sie im **[!UICONTROL Add Destination]** Workflow die Option [!UICONTROL User ID Key]. Die [!UICONTROL User ID Key] Filter filtern die eingehenden IDs aus der Datenquelle der Zielgruppe und lassen nur die Weiterleitung der IDs zu.
 
    ![](assets/user_id_key.PNG)
 
-* [!UICONTROL Data Source Type]. Wählen Sie diese Option, wenn Sie ein Ziel in der Benutzeroberfläche von Audience Manager erstellen. Wählen Sie zunächst [!UICONTROL Inbound]und dann den gewünschten ID-Typ aus. Die Optionen sind:
+* [!UICONTROL Data Source Type]. Wählen Sie diese Option, wenn Sie ein Ziel in der Benutzeroberfläche des Audience Managers erstellen. Wählen Sie zunächst [!UICONTROL Inbound]und dann den gewünschten ID-Typ aus. Die Optionen sind:
 
    ![](assets/data_source_settings.PNG)
 
 * [!UICONTROL Format]. Diese Option legt das Dateiformat fest, das exportiert werden soll. Wählen Sie im **[!UICONTROL Add Destination]** Workflow unter **[!UICONTROL Batch Data]** das Format aus.
 
-Um ein Format zu überprüfen, gehen Sie zu **[!UICONTROL Admin UI > Formats]** und suchen Sie nach dem [!UICONTROL Data Row] Element. Dieses Element enthält ein Makro des Dateiformats, &lt;MCID&gt; im Beispiel unten.
+Um ein Format zu überprüfen, gehen Sie zu **[!UICONTROL Admin UI > Formats]** und suchen Sie nach dem [!UICONTROL Data Row] Element. Dieses Element enthält ein Makro des Dateiformats, &lt;MCID> im Beispiel unten.
 
 ![](assets/data_row.PNG)
 
@@ -158,42 +161,42 @@ Um ein Format zu überprüfen, gehen Sie zu **[!UICONTROL Admin UI > Formats]** 
   </tr> 
   <tr> 
    <td colname="col01"> 7 </td> 
-   <td colname="col1"> <p>DPID (Jede Datenquelle, auf die das Unternehmen Zugriff hat) </p> </td> 
-   <td colname="col2"> <p>Customer ID </p> </td> 
+   <td colname="col1"> <p>DPID (Jede Datenquelle, auf die die Firma Zugriff hat) </p> </td> 
+   <td colname="col2"> <p>Kunden-ID </p> </td> 
    <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
    <td colname="col4"> <p>Kunden-ID (DPUUID) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 8 </td> 
-   <td colname="col1"> <p>DPID (Jede Datenquelle, auf die das Unternehmen Zugriff hat) </p> </td> 
-   <td colname="col2"> <p>Customer ID </p> </td> 
+   <td colname="col1"> <p>DPID (Jede Datenquelle, auf die die Firma Zugriff hat) </p> </td> 
+   <td colname="col2"> <p>Kunden-ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
    <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 9 </td> 
-   <td colname="col1"> <p>DPID (Jede Datenquelle, auf die das Unternehmen Zugriff hat) </p> </td> 
-   <td colname="col2"> <p>Customer ID </p> </td> 
+   <td colname="col1"> <p>DPID (Jede Datenquelle, auf die die Firma Zugriff hat) </p> </td> 
+   <td colname="col2"> <p>Kunden-ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
    <td colname="col4"> <p>Audience Manager-UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 10 </td> 
-   <td colname="col1"> <p>DPID (Jede Datenquelle, auf die das Unternehmen Zugriff hat) </p> </td> 
+   <td colname="col1"> <p>DPID (Jede Datenquelle, auf die die Firma Zugriff hat) </p> </td> 
    <td colname="col2"> <p>Audience Manager-ID </p> </td> 
    <td colname="col3"> <p>&lt;DP_UUID&gt; </p> </td> 
    <td colname="col4"> <p>Audience Manager-UUID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 11 </td> 
-   <td colname="col1"> <p>DPID (Jede Datenquelle, auf die das Unternehmen Zugriff hat) </p> </td> 
+   <td colname="col1"> <p>DPID (Jede Datenquelle, auf die die Firma Zugriff hat) </p> </td> 
    <td colname="col2"> <p>Audience Manager-ID </p> </td> 
    <td colname="col3"> <p>MCID </p> </td> 
    <td colname="col4"> <p>Experience Cloud ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> 12 </td> 
-   <td colname="col1"> <p>DPID (Jede Datenquelle, auf die das Unternehmen Zugriff hat) </p> </td> 
+   <td colname="col1"> <p>DPID (Jede Datenquelle, auf die die Firma Zugriff hat) </p> </td> 
    <td colname="col2"> <p>Audience Manager-ID </p> </td> 
    <td colname="col3"> <p>UUID </p> </td> 
    <td colname="col4"> <p>Audience Manager-UUID </p> </td> 
@@ -203,4 +206,4 @@ Um ein Format zu überprüfen, gehen Sie zu **[!UICONTROL Admin UI > Formats]** 
 
 ## Nutzungsszenarios
 
-Angenommen, Sie verwenden Audience Manager und [!DNL Campaign]. Damit die Kundendaten verarbeitet werden können, [!DNL Campaign]sollten Sie exportieren [!UICONTROL Experience Cloud IDs]. In diesem Fall sollten Sie die Konfigurationsnummer 3 verwenden.
+Nehmen wir an, Sie benutzen Audience Manager und [!DNL Campaign]. Damit die Kundendaten verarbeitet werden können, [!DNL Campaign]möchten Sie sie exportieren [!UICONTROL Experience Cloud IDs]. In diesem Fall sollten Sie die Konfigurationsnummer 3 verwenden.
