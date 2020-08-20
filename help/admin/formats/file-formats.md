@@ -5,7 +5,7 @@ seo-title: Dateiformatmakros
 title: Dateiformatmakros
 uuid: f91c91b6-6581-4ed7-8d7f-f8532bd41df9
 translation-type: tm+mt
-source-git-commit: e1122a7f3d3e8c2d67616eb56cb186a4750ed29b
+source-git-commit: 0ee7aa9c13f1b9b8fd64dddff4e52d101055e77c
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 2%
@@ -31,7 +31,7 @@ Diese Makros können in jedem Formatfeld verwendet werden. Beispiele finden Sie 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>ASCII_SOH</code> </p> </td> 
-   <td colname="col2"> <p>Ein nicht druckbares ASCII-Zeichen. Er zeigt den Beginn einer Zeile oder eines Inhaltsabschnitts an. Sie kann auch zum Trennen von Datenspalten in einer Datei verwendet werden. </p> </td> 
+   <td colname="col2"> <p>Ein nicht druckbares ASCII-Zeichen. Es zeigt den Beginn einer Zeile oder eines Inhaltsabschnitts an. Sie kann auch zum Trennen von Datenspalten in einer Datei verwendet werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -106,7 +106,7 @@ Makros, die nur in Datenzeilen verwendet werden. Beispiele finden Sie unter [Dat
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>CLOSE_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine geschlossene geschweifte Klammer } ein. </p> </td> 
+   <td colname="col2"> <p>Fügt ein geschlossenes geschweiftes Klammer- <code>}</code> Zeichen ein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>COMMA</code> </p> </td> 
@@ -138,7 +138,7 @@ Makros, die nur in Datenzeilen verwendet werden. Beispiele finden Sie unter [Dat
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPEN_CURLY_BRACKET</code> </p> </td> 
-   <td colname="col2"> <p>Fügt eine offene geschweifte Klammer { ein. </p> </td> 
+   <td colname="col2"> <p>Fügt eine offene geschweifte Klammer <code>{</code> ein. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>OPT_OUT</code> </p> </td> 
