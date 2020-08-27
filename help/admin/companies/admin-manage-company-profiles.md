@@ -5,9 +5,9 @@ seo-title: Erstellen eines Firmenprofils
 title: Erstellen eines Firmenprofils
 uuid: 55de18f8-883d-43fe-b37f-e8805bb92f7a
 translation-type: tm+mt
-source-git-commit: 71bf4cec222428686c1eab0998f66887db06da68
+source-git-commit: 69b733ae869b3dded76f0264e395f0157b445148
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '955'
 ht-degree: 5%
 
 ---
@@ -32,7 +32,7 @@ Verwenden Sie die [!UICONTROL Companies] Seite im Audience Manager Admin Tool, u
 
       Wenn Ihre Firma beispielsweise benannt wurde [!DNL AcmeCorp], wäre die Subdomäne [!DNL acmecorp].
 
-      Audience Manager verwendet die Subdomäne für [!UICONTROL Data Collection Server]([!UICONTROL DCS]). Im vorherigen Beispiel, wenn Ihre Firma voll [!DNL URL] in [!UICONTROL DCS] wäre [!DNL acmecorp.demdex.net].
+      Audience Manager verwendet die Subdomäne für den [!UICONTROL Data Collection Server] (DCS). Im vorherigen Beispiel, wenn Ihre Firma voll [!DNL URL] in [!UICONTROL DCS] wäre [!DNL acmecorp.demdex.net].
 
    * **[!UICONTROL Lifecyle]**: Geben Sie die gewünschte Phase für die Firma an:
       * **[!UICONTROL Active]**: Geben Sie an, dass die Firma ein aktiver Audience Manager-Client sein soll. Ein [!UICONTROL Active] Konto bedeutet einen zahlenden Kunden, nicht nur für die Beratung, sondern für den Audience Manager SKU.
@@ -40,7 +40,7 @@ Verwenden Sie die [!UICONTROL Companies] Seite im Audience Manager Admin Tool, u
       * **[!UICONTROL Prospect]**: Geben Sie an, dass es sich bei der Firma um einen potenziellen Audience Manager-Client handelt, z. B. um eine kostenlose Firma [!DNL POC] oder eine Kontoeinrichtung für eine Verkaufsdemo.
       * **[!UICONTROL Test]**: Geben Sie an, dass die Firma nur zu internen Testzwecken verwendet werden soll.
    * **[!UICONTROL Account Types]**: Geben Sie den vollständigen Satz von Kontotypen für diese Firma an. Kein Kontotyp schließt sich gegenseitig mit anderen Typen aus.
-      * **[!UICONTROL Full AAM]**: Geben Sie an, dass die Firma über ein Vollbenutzerkonto verfügt und die Benutzer Zugriff auf den Adobe Audience Manager haben.
+      * **[!UICONTROL Full AAM]**: Geben Sie an, dass die Firma über ein vollständiges Adobe Audience Manager-Konto verfügt und die Benutzer Zugriff auf die Anmeldung haben.
       * **[!UICONTROL MMP]**: Geben Sie an, dass die Firma für die Verwendung der [!UICONTROL Master Marketing Profile] ([!UICONTROL MMP])-Funktionen aktiviert wurde. Die [!UICONTROL MMP] ermöglicht die Freigabe von Audiencen im gesamten Experience Cloud mithilfe eines [!UICONTROL Experience Cloud ID] ([!DNL MCID]), das jedem Besucher zugewiesen und dann von Audience Manager verwendet wird. Wenn Sie diesen Kontotyp auswählen, [!UICONTROL Experience Cloud ID Service] wird auch die Option automatisch ausgewählt.
 
          Weitere Informationen finden Sie unter [Audiencen-Services - Übergeordnet Marketing-Profil](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
@@ -78,16 +78,16 @@ Bearbeiten Sie das Profil einer Firma, einschließlich Name, Beschreibung, Subdo
 
       Wenn Ihre Firma beispielsweise benannt wurde [!DNL AcmeCorp], wäre die Subdomäne [!DNL acmecorp].
 
-      Audience Manager verwendet die Subdomäne für die [!UICONTROL Data Collection Server] ([!UICONTROL DCS]). Im vorherigen Beispiel, wenn Ihre Firma voll [!DNL URL] in [!UICONTROL DCS] wäre [!DNL acmecorp.demdex.net].
+      Audience Manager verwendet die Subdomäne für den [!UICONTROL Data Collection Server] (DCS). Im vorherigen Beispiel, wenn Ihre Firma voll [!DNL URL] in [!UICONTROL DCS] wäre [!DNL acmecorp.demdex.net].
 
-   * **[!UICONTROL imsOrgld]**: ([!UICONTROL Identity Management System Organization ID]) Mit dieser ID können Sie Ihre Firma mit der Adobe Experience Cloud verbinden.
+   * **[!UICONTROL imsOrgld]**: ([!UICONTROL Identity Management System Organization ID]) Mit dieser ID können Sie Ihre Firma mit dem Adobe Experience Cloud verbinden.
    * **[!UICONTROL Lifecyle]**: Geben Sie die gewünschte Phase für die Firma an:
       * **[!UICONTROL Active]**: Geben Sie an, dass die Firma ein aktiver Audience Manager-Client sein soll. Ein Aktives Konto bedeutet einen zahlenden Kunden, nicht nur für Beratung, sondern für den Audience Manager-SKU.
       * **[!UICONTROL Demo]**: Geben Sie an, dass die Firma nur zu Demozwecken verwendet werden soll. Berichte-Daten werden automatisch gefälscht.
       * **[!UICONTROL Prospect]**: Geben Sie an, dass es sich bei der Firma um einen potenziellen Audience Manager-Client handelt, z. B. um eine kostenlose Firma [!DNL POC] oder eine Kontoeinrichtung für eine Verkaufsdemo.
       * **[!UICONTROL Test]**: Geben Sie an, dass die Firma nur zu internen Testzwecken verwendet werden soll.
    * **[!UICONTROL Account Types]**: Geben Sie den vollständigen Satz von Kontotypen für diese Firma an. Kein Kontotyp schließt sich gegenseitig mit anderen Typen aus.
-      * **[!UICONTROL Full AAM]**: Geben Sie an, dass die Firma über ein Vollbenutzerkonto verfügt und die Benutzer Zugriff auf den Adobe Audience Manager haben.
+      * **[!UICONTROL Full AAM]**: Geben Sie an, dass die Firma über ein vollständiges Adobe Audience Manager-Konto verfügt und die Benutzer Zugriff auf die Anmeldung haben.
       * **[!UICONTROL MMP]**: Geben Sie an, dass die Firma für die Verwendung der Übergeordnet Marketing Profil ([!UICONTROL MMP])-Funktionen aktiviert wurde.
 
          Wenn Sie diesen Kontotyp auswählen, **[!UICONTROL Visitor ID Service]** wird auch automatisch ausgewählt.
