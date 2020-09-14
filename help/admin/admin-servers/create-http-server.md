@@ -5,7 +5,7 @@ seo-title: Erstellen und Bearbeiten von HTTP-Servern
 title: Erstellen und Bearbeiten von HTTP-Servern
 uuid: 1ef0e751-e239-4dc6-a4f6-73cc05686807
 translation-type: tm+mt
-source-git-commit: 57d7a92265e565b6c411e4cfa5c579e40eb837b3
+source-git-commit: d518ba4011f203a7d450ce76d8c1924f7d73a815
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 7%
@@ -26,13 +26,13 @@ Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager-Admin-Tool, um 
 1. Wählen Sie in der **[!UICONTROL Protocol]** Dropdown-Liste das gewünschte Protokoll aus: [!DNL HTTP].
 1. Füllen Sie die Felder aus:
 
-   * **[!UICONTROL Domain]:**Geben Sie die gewünschte Domäne (den Host) für diesen Server an.
-   * **[!UICONTROL Port]:**Geben Sie den gewünschten Anschluss für diesen Server an. Für jeden Verschlüsselungstyp wird der Standardanschluss angezeigt. Sie können den Standardanschluss bei Bedarf ändern
-   * **[!UICONTROL Maximum Users Per Request]:**Geben Sie die maximale Anzahl von Benutzern pro Anforderung an, die für diesen Server zulässig ist.
-   * **[!UICONTROL URL Prefix]:**Geben Sie das für diesen Server zu verwendende[!DNL URL]Präfix an.
-   * **[!UICONTROL Authentication URL]:**Geben Sie die[!UICONTROL Authentication URL]für diesen`HTTP`Server an.
-   * **[!UICONTROL Authentication]:**Geben Sie die gewünschte Authentifizierungsmethode an:**[!UICONTROL None]**,**[!UICONTROL Username/Password]**oder **[!UICONTROL SSH Key]**.
-   * **[!UICONTROL HTTP Signature Header]:**Der Name der vom Kunden bereitgestellten[!DNL HTTP]Kopfzeile, die den[!DNL HTTP]Signaturschlüssel enthält. Der Standardwert ist[!UICONTROL X-Signature]wie im folgenden Beispiel dargestellt:
+   * **[!UICONTROL Domain]:** Geben Sie die gewünschte Domäne (den Host) für diesen Server an.
+   * **[!UICONTROL Port]:** Geben Sie den gewünschten Anschluss für diesen Server an. Für jeden Verschlüsselungstyp wird der Standardanschluss angezeigt. Sie können den Standardanschluss bei Bedarf ändern
+   * **[!UICONTROL Maximum Users Per Request]:** Geben Sie die maximale Anzahl von Benutzern pro Anforderung an, die für diesen Server zulässig ist.
+   * **[!UICONTROL URL Prefix]:** Geben Sie das für diesen Server zu verwendende [!DNL URL] Präfix an.
+   * **[!UICONTROL Authentication URL]:** Geben Sie die [!UICONTROL Authentication URL] für diesen `HTTP` Server an.
+   * **[!UICONTROL Authentication]:** Geben Sie die gewünschte Authentifizierungsmethode an: **[!UICONTROL None]**, **[!UICONTROL Username/Password]** oder **[!UICONTROL SSH Key]**.
+   * **[!UICONTROL HTTP Signature Header]:** Der Name der vom Kunden bereitgestellten [!DNL HTTP] Kopfzeile, die den [!DNL HTTP] Signaturschlüssel enthält. Der Standardwert ist [!UICONTROL X-Signature]wie im folgenden Beispiel dargestellt:
 
       ```
       * Connected to partner.website.com (127.0.0.1) port 80 (#0)
@@ -45,9 +45,9 @@ Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager-Admin-Tool, um 
       POST message content
       ```
 
-   * **[!UICONTROL HTTP Signature Key]:**Der Schlüssel, der zum Unterschreiben der[!DNL HTTP]Anforderung verwendet wird, vom Kunden bereitgestellt.
-   * **[!UICONTROL Show Signature Key]:**Schalten Sie ein/aus, ob die Unterschrift im Browser angezeigt werden soll.
-   * **[!UICONTROL HTTP Signature Encryption Method]:**Geben Sie die Methode zum Verschlüsseln der Signatur an. Verwenden Sie diese Option,[!UICONTROL SHA1]sofern der Kunde nichts anderes vorzieht.
+   * **[!UICONTROL HTTP Signature Key]:** Der Schlüssel, der zum Unterschreiben der [!DNL HTTP] Anforderung verwendet wird, vom Kunden bereitgestellt.
+   * **[!UICONTROL Show Signature Key]:** Schalten Sie ein/aus, ob die Unterschrift im Browser angezeigt werden soll.
+   * **[!UICONTROL HTTP Signature Encryption Method]:** Geben Sie die Methode zum Verschlüsseln der Signatur an. Verwenden Sie diese Option, [!UICONTROL SHA1] sofern der Kunde nichts anderes vorzieht.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager-Admin-Tool, um 
    | [!UICONTROL URL Prefix] | [!UICONTROL /segments/aam] |
    | [!UICONTROL Authentication URL] | [!UICONTROL api.partner.com/oauth2/token] |
    | [!UICONTROL Authentication] | [!UICONTROL Username/Password] |
-   | [!UICONTROL Username] | [!UICONTROL *Genehmigung *] |
+   | [!UICONTROL Username] | [!UICONTROL *Genehmigung*] |
    | [!UICONTROL Password] | your_password_here |
    | [!UICONTROL HTTP Signature Header] | [!UICONTROL Leave this field blank] |
    | [!UICONTROL HTTP Signature Key] | [!UICONTROL Leave this field blank] |
