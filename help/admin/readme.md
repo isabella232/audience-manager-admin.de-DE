@@ -13,7 +13,7 @@ ht-degree: 2%
 ## Inhaltsverzeichnis
 
 + `TOC.md` im Stammverzeichnis des Benutzerhandbuchs finden Sie die Organisation der Themen, die im Handbuch für diese Lösung enthalten sind.
-+ Jedes Benutzerhandbuch verfügt über eine eigene eindeutige Benutzeroberfläche `TOC.md`, in der Sie alle Seiten/Themen nach Bedarf bestellen können.
++ Jedes Benutzerhandbuch verfügt über ein eigenes eindeutiges `TOC.md`, in dem Sie alle Seiten/Themen nach Bedarf bestellen können.
 + Die erste Seite aller Benutzerhandbücher ist `overview.md`.
 
 ## Benutzerhandbuch
@@ -21,16 +21,16 @@ ht-degree: 2%
 + Die Einführung in das Benutzerhandbuch heißt `overview.md`
 + Jedes Thema im Benutzerhandbuch hat ein eigenes Verzeichnis.
    + Wenn ein Thema im Handbuch *Implementierung* aufgeführt ist, ist der entsprechende Ordner `/implementation`
-+ Alle Bild-Assets werden im Stammverzeichnis `/assets` des Benutzerhandbuchs gespeichert.
-   + Alle Bilder im `/assets` Ordner werden lokalisiert.
-   + Alle Bilder im `/no-localize` Verzeichnis werden nicht lokalisiert (es gibt eine Überraschung!). Auf diese Weise kann sichergestellt werden, dass bestimmte Assets in lokalen Versionen nicht unnötig reproduziert werden.
++ Alle Bild-Assets werden in `/assets` im Stammverzeichnis des Benutzerhandbuchs gespeichert.
+   + Alle Bilder im Ordner `/assets` werden lokalisiert.
+   + Bilder im Ordner `/no-localize` werden nicht lokalisiert (es gibt eine Überraschung!). Auf diese Weise kann sichergestellt werden, dass bestimmte Assets in lokalen Versionen nicht unnötig reproduziert werden.
 
 ## Metrikdaten auf Benutzerhandbuchebene
 
-+ Metadaten, die das Benutzerhandbuch beschreiben, werden im `TOC.md`Ordner gespeichert. Dazu gehören:
++ Metadaten, die das Benutzerhandbuch beschreiben, werden im Ordner `TOC.md` gespeichert. Dazu gehören:
    + product - Name des Produkts/der Funktion.
    + Cloud - Cloud, zu der dieses Produkt gehört.
-   + Audience - Audience oder Archetyp, auf den der Guide abzielt.
+   + audience - Audience oder Archetyp, auf den der Guide abzielt.
    + user-guide - Name des Benutzerhandbuchs.
 
 ## Metadaten auf Seitenniveau
@@ -41,7 +41,7 @@ ht-degree: 2%
    + seo-title - seo alternative title.
    + seo-description - alternativer Titel für SEO Zwecke.
    + short-title - (optionales Feld).
-   + index - ja/nein - wird die Seite von der Suchplattform von Adobe indiziert.
+   + index - ja/nein - wird die Seite nach der Suchplattform der Adobe indiziert.
    + translate - ja / nein - wird diese Seite lokalisiert.
    + version - wird hauptsächlich für AEM und Kampagne verwendet, um die Produktversion zu kennzeichnen.
    + private-feature-pack - wird primär für AEM verwendet.
@@ -51,4 +51,4 @@ ht-degree: 2%
 
 ## Weitere Informationen
 
-Weitere Veröffentlichungsanweisungen, Stilhandbücher, Beispiele und andere Ressourcen finden Sie im [kollaborativen Dokumentationsbericht](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Weitere Veröffentlichungsanweisungen, Stilhandbücher, Beispiele und andere Ressourcen finden Sie im Bericht [Kooperative Dokumentation](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
