@@ -15,17 +15,17 @@ ht-degree: 16%
 
 # Löschen von Servern {#delete-a-server}
 
-Verwenden Sie die [!UICONTROL Servers] Seite im Audience Manager-Admin-Tool, um einen vorhandenen Server zu löschen.
+Verwenden Sie die Seite [!UICONTROL Servers] im Audience Manager-Admin-Tool, um einen vorhandenen Server zu löschen.
 
 <!-- t_delete_server.xml -->
 
 >[!NOTE]
 >
->Sie müssen die [!UICONTROL DEXADMIN] Rolle haben, um vorhandene Server zu löschen.
+>Sie müssen über die Rolle [!UICONTROL DEXADMIN] verfügen, um vorhandene Server zu löschen.
 
 1. Um einen vorhandenen Server zu löschen, klicken Sie auf **[!UICONTROL Servers]**.
 
    ![Schritt-Ergebnis](assets/servers.png)
 
-1. Klicken Sie ![](assets/icon_delete.png) in die **[!UICONTROL Actions]** Spalte des gewünschten Servers.
+1. Klicken Sie in der Spalte **[!UICONTROL Actions]** des gewünschten Servers auf ![](assets/icon_delete.png).
 1. Klicken Sie auf **[!UICONTROL OK]**, um den Löschvorgang zu bestätigen.
