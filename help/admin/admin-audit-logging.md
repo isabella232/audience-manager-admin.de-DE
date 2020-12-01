@@ -15,11 +15,11 @@ ht-degree: 9%
 
 # Prüfprotokollierung {#audit-logging}
 
-Verwenden Sie [!UICONTROL  Audit Logging] als Erstes, wenn Sie Kundenprobleme debuggen möchten.
+Verwenden Sie [!UICONTROL  Audit Logging] als ersten Schritt, um Probleme von Kunden zu debuggen.
 
 >[!NOTE]
 >
->Die [!UICONTROL Audit Logging] Funktionalität und Dokumentation wird derzeit entwickelt und kann geändert werden. Bitte protokollieren Sie alle Probleme, mit denen Sie konfrontiert sind [!DNL JIRA] ([!DNL UI] Team).
+>Die [!UICONTROL Audit Logging]-Funktionalität und -Dokumentation wird derzeit entwickelt und kann geändert werden. Bitte protokollieren Sie alle Probleme, mit denen Sie im [!DNL JIRA]- ([!DNL UI]-Team) konfrontiert sind.
 
 ![Ansicht zur Prüfprotokollierung](assets/audit-logging-img.png)
 
