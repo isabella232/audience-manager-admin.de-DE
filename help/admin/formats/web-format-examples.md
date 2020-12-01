@@ -15,9 +15,9 @@ ht-degree: 15%
 
 # Beispiele für HTTP-Formatmakros {#http-format-macro-examples}
 
-Beispiele für häufig verwendete [!DNL HTTP] Makrokombinationen.
+Beispiele für häufig verwendete [!DNL HTTP]-Makrokombinationen.
 
-Eine Liste der Makros und ihrer Definitionen finden Sie in den [HTTP-Formatmakros](../formats/web-formats.md) .
+Eine Liste der Makros und ihrer Definitionen finden Sie unter [HTTP-Formatmakros](../formats/web-formats.md).
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -138,7 +138,7 @@ Eine Liste der Makros und ihrer Definitionen finden Sie in den [HTTP-Formatmakro
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>Druckt ein Komma, wenn die Felder <code>segments</code> und <code>removedSegments</code> nicht leer sind. Diese Bedingung kann für POST-Anforderungen verwendet werden, wenn Listen für Segmente und entfernte Segmente verkettet werden. </p> </td> 
+   <td colname="col2"> <p>Druckt ein Komma, wenn die Felder <code>segments</code> und <code>removedSegments</code> nicht leer sind. Diese Bedingung kann für Segmentanforderungen verwendet werden, wenn Listen für Segmente und entfernte POST miteinander verkettet werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
