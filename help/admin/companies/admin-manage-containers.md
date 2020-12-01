@@ -21,13 +21,13 @@ Ansicht oder Bearbeitung von Datenanbietern für Container.
 
 >[!NOTE]
 >
->Standardmäßig werden Firmen mit einem Container erstellt. Sie können weitere Container für eine Firma in der Benutzeroberfläche erstellen, in **[!UICONTROL Tools > Tags]**.
+>Standardmäßig werden Firmen mit einem Container erstellt. Sie können weitere Container für eine Firma in der Benutzeroberfläche in **[!UICONTROL Tools > Tags]** erstellen.
 
-1. Klicken Sie auf **[!UICONTROL Companies]**, suchen Sie die gewünschte Firma und klicken Sie darauf, um die zugehörige [!UICONTROL Profile] Seite anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Companies]**, suchen Sie die gewünschte Firma und klicken Sie darauf, um deren [!UICONTROL Profile]-Seite anzuzeigen.
 
-   Verwenden Sie das [!UICONTROL Search] Feld oder die Paginierungssteuerelemente am unteren Rand der Liste, um die gewünschte Firma zu finden. Sie können jede Spalte in auf- oder absteigender Reihenfolge sortieren, indem Sie auf die Kopfzeile der gewünschten Spalte klicken.
+   Verwenden Sie das Feld [!UICONTROL Search] oder die Paginierungssteuerelemente am unteren Rand der Liste, um die gewünschte Firma zu finden. Sie können jede Spalte in auf- oder absteigender Reihenfolge sortieren, indem Sie auf die Kopfzeile der gewünschten Spalte klicken.
 
-1. Click the **[!UICONTROL Containers]** tab.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Containers]**.
 
    ![](assets/containers.png)
 
@@ -35,11 +35,11 @@ Ansicht oder Bearbeitung von Datenanbietern für Container.
 
    ![Schritt-Ergebnis](assets/containers_edit.png)
 
-1. Verschieben Sie Datenquellen aus den **[!UICONTROL Available Data Sources]** und den **[!UICONTROL Selected Data Sources for This Container]** Listen, indem Sie die gewünschten Datenquellen auswählen und dann nach Bedarf auf den Rechts- oder Linkspfeil klicken.
+1. Verschieben Sie die Datenquellen aus den Listen **[!UICONTROL Available Data Sources]** und **[!UICONTROL Selected Data Sources for This Container]**, indem Sie die gewünschten Datenquellen auswählen und dann nach Bedarf auf den Rechts- oder Linkspfeil klicken.
 
-   Sie können diese Aufgabe auch über den [Drittanbieter für Daten](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)durchführen.
+   Sie können diese Aufgabe auch über die Seite [Datenanbieter von Drittanbietern](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)durchführen.
 
-1. Klicken Sie auf **[!UICONTROL Save]** , wenn Sie Änderungen vorgenommen haben.
+1. Klicken Sie auf **[!UICONTROL Save]**, wenn Sie Änderungen vorgenommen haben.
 
 >[!MORELIKETHIS]
 >
