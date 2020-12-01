@@ -15,9 +15,9 @@ ht-degree: 3%
 
 # HTTP-Formatmakros {#http-format-macros}
 
-Liste der Makros, die Sie zum Erstellen von [!DNL HTTP] Datendateien verwenden können. [!DNL HTTP] sendet Daten in einem [!DNL JSON] Format.
+Liste der Makros, mit denen Sie [!DNL HTTP]-Datendateien erstellen können. [!DNL HTTP] sendet Daten in einem  [!DNL JSON] Format.
 
-Eine Liste und Beispiele für gebräuchliche Makrokombinationen finden Sie in den [HTTP-Format-Makrobeispielen](../formats/web-format-examples.md) .
+Eine Liste und Beispiele für gebräuchliche Makrokombinationen finden Sie in den [HTTP-Format-Makrobeispielen](../formats/web-format-examples.md).
 
 <table id="table_72A72EA63C3643FB84B47A76CD2CC1CA"> 
  <thead> 
@@ -36,7 +36,7 @@ Eine Liste und Beispiele für gebräuchliche Makrokombinationen finden Sie in de
   <tr> 
    <td colname="col1"> <p> <code>DP_UUID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Individuelle Benutzer-ID des Datenpartners Dieses Makro gibt die ID zurück, die Sie einem Benutzer zugewiesen haben, wenn die ID bereits mit einer <span class="keyword"> Audience Manager- </span> Geräte-ID synchronisiert wurde. </p> </td> 
+   <td colname="col3"> <p>Individuelle Benutzer-ID des Datenpartners Dieses Makro gibt die ID zurück, die Sie einem Benutzer zugewiesen haben, wenn die ID bereits mit einer Geräte-ID des Typs <span class="keyword"> (</span>) synchronisiert wurde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>DPID</code> </p> </td> 
@@ -51,7 +51,7 @@ Eine Liste und Beispiele für gebräuchliche Makrokombinationen finden Sie in de
   <tr> 
    <td colname="col1"> <p> <code>GENERATION_TIME</code> </p> </td> 
    <td colname="col2"> <p> <code>GET, POST</code> </p> </td> 
-   <td colname="col3"> <p>Unix UTC timestamp. Ein interner Zeitstempel, der den Zeitpunkt darstellt, zu dem AAM benachrichtigt wurde, um das <span class="wintitle"> S2S-Ziel an unsere Partner zu veröffentlichen </span> . </p> </td> 
+   <td colname="col3"> <p>Unix UTC timestamp. Ein interner Zeitstempel, der den Zeitpunkt darstellt, zu dem AAM benachrichtigt wurde, das <span class="wintitle"> S2S </span>-Ziel bei unseren Partnern zu veröffentlichen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>IP</code> </p> </td> 
@@ -61,7 +61,7 @@ Eine Liste und Beispiele für gebräuchliche Makrokombinationen finden Sie in de
     <tr> 
    <td colname="col1"> <p> <code>MCID</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Experience Cloud-ID. (MCID steht für Marketing Cloud, der Legacy-Name des Experience Cloud) </p> </td> 
+   <td colname="col3"> <p>Experience Cloud-ID. (MCID steht für Marketing Cloud, das der Legacy-Name des Experience Cloud ist) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>NUM_REMOVED_SEGMENTS</code> </p> </td> 
@@ -91,7 +91,7 @@ Eine Liste und Beispiele für gebräuchliche Makrokombinationen finden Sie in de
   <tr> 
    <td colname="col1"> <p> <code>REGION_ID_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>GET</code> </p> </td> 
-   <td colname="col3"> <p>Der <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Audience Manager-DCS-Bereich, </a> in dem die Aktivität ihren Ursprung hat.</p> </td> 
+   <td colname="col3"> <p>Der <a href="https://docs.adobe.com/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-regions.html"> Audience Manager-DCS-Bereich </a>, in dem die Aktivität ihren Ursprung hat.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>REMOVED_SEGMENT_LIST</code> </p> </td> 
@@ -160,7 +160,7 @@ Eine Liste und Beispiele für gebräuchliche Makrokombinationen finden Sie in de
   <tr> 
    <td colname="col1"> <p> <code>USER_LIST</code> </p> </td> 
    <td colname="col2"> <p> <code>POST</code> </p> </td> 
-   <td colname="col3"> <p>Eine Liste von <span class="keyword"> Audience Manager- </span> Benutzer-IDs. Sie können auch bestimmte Felder zurückgeben, die Folgendes umfassen: </p> 
+   <td colname="col3"> <p>Eine Liste von <span class="keyword"> Audience Manager </span> Benutzer-IDs. Sie können auch bestimmte Felder zurückgeben, die Folgendes umfassen: </p> 
     <ul id="ul_B6857D809FDC46749B7E745BD8C45F8E"> 
      <li id="li_F31CD82D16ED41FD82518141D90B5B35"> <code>user.aamUuid</code> </li> 
      <li id="li_623FA758C84D4A2D9B25C7FBE90F62B7"> <code>user.dpUuid</code> </li> 
@@ -174,8 +174,9 @@ Eine Liste und Beispiele für gebräuchliche Makrokombinationen finden Sie in de
      <li><code>user.regionIds</code></li> 
     </ul> <p>Geben Sie die folgenden Felder wie im folgenden Beispiel an: </p> <p> 
      <codeblock>
-       "AAM_UUID": "&lt;user.aamUuid&gt;" "DataPartner_UUID": "&lt;user.dpUuid&gt;" 
-     </codeblock> </p> <p>Ein vollständiges Beispiel finden Sie unter auch <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Beispiele für HTTP-Format-Makros </a> . </p> </td> 
+       "AAM_UUID": "&lt;user.aamUuid&gt;" 
+"DataPartner_UUID": "&lt;user.dpUuid&gt;" 
+     </codeblock> </p> <p>Ein vollständiges Beispiel finden Sie unter <a href="../formats/web-format-examples.md#reference_98828E32B0964FF9AAC7C5400E88BA31"> Beispiele für HTTP-Format-Makros </a>. </p> </td> 
   </tr>
  </tbody>
 </table>
