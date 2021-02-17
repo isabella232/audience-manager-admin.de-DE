@@ -36,7 +36,7 @@ Erstellen Sie neue Audience Manager-Benutzer oder bearbeiten und löschen Sie vo
    * **[!UICONTROL Phone Number]**: Geben Sie die Telefonnummer des Benutzers an.
    * **[!UICONTROL IMS ID]**: Der Benutzer  [!UICONTROL Identity Management System ID]. Mit dieser ID kann der Benutzer eine Verknüpfung zu Adoben mit dem Adobe Experience Cloud herstellen.
    * **[!UICONTROL Is Admin]**: Machen Sie diesen Audience Manager zu einem Administrator-Benutzer. Ein Administrator hat alle Benutzerrollen für diesen Audience Manager.
-   * **[!UICONTROL Status]**: Beim Erstellen eines neuen Benutzers wird dieses Feld zunächst als angezeigt,  **[!UICONTROL Pending]** bis der Benutzer sich anmeldet und das temporäre Kennwort zurücksetzt. Wenn Sie einen vorhandenen Benutzer bearbeiten, können Sie einen der folgenden Status auswählen:
+   * **[!UICONTROL Status]**: Beim Erstellen eines neuen Benutzers wird dieses Feld zunächst als angezeigt,  **[!UICONTROL Pending]** bis der Benutzer sich anmeldet und das temporäre Kennwort zurücksetzt. Wenn Sie einen vorhandenen Benutzer bearbeiten, können Sie aus den folgenden Status auswählen:
       * **[!UICONTROL Active]**: Gibt an, dass dieser Audience Manager aktiv ist.
       * **[!UICONTROL Deactivated]**: Gibt an, dass dieser Audience Manager deaktiviert ist.
       * **[!UICONTROL Expired]**: Gibt an, dass dieser Benutzer ein abgelaufener Benutzer ist.
