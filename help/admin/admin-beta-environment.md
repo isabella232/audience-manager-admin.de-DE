@@ -55,7 +55,7 @@ So greifen Sie auf die [!UICONTROL DCS] in der Beta-Umgebung zu:
 
    Beispiel: `curl -v https://dcs-beta.demdex.net/event`
 
-1. Stellen Sie sicher, dass Ihre Anforderung von der Beta [!UICONTROL DCS] verarbeitet wurde, indem Sie in der [!UICONTROL DCS] Antwort-Kopfzeile nach &quot;[!DNL sandbox]&quot;suchen.
+1. Stellen Sie sicher, dass Ihre Anforderung von der Beta [!UICONTROL DCS] verarbeitet wurde, indem Sie in der [!UICONTROL DCS]-Antwortkopfzeile nach &quot;[!DNL sandbox]&quot;suchen.
 
    Beispiel:
 
