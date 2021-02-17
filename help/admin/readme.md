@@ -30,7 +30,7 @@ ht-degree: 2%
 + Metadaten, die das Benutzerhandbuch beschreiben, werden im Ordner `TOC.md` gespeichert. Dazu gehören:
    + product - Name des Produkts/der Funktion.
    + Cloud - Cloud, zu der dieses Produkt gehört.
-   + audience - Audience oder Archetyp, auf den der Guide abzielt.
+   + Audience - Audience oder Archetyp, auf den der Guide abzielt.
    + user-guide - Name des Benutzerhandbuchs.
 
 ## Metadaten auf Seitenniveau
