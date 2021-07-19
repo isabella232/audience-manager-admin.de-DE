@@ -1,45 +1,44 @@
 ---
-description: Ansicht oder Bearbeitung von Datenanbietern für Container.
-seo-description: Ansicht oder Bearbeitung von Datenanbietern für Container.
+description: Anzeigen oder Bearbeiten von Datenanbietern für Container.
+seo-description: Anzeigen oder Bearbeiten von Datenanbietern für Container.
 seo-title: Verwalten von Containern
 title: Verwalten von Containern
 uuid: 7dfcac5e-5502-4701-97f4-ae8015c3f0a6
-translation-type: tm+mt
-source-git-commit: 2998dc049971b2fac8c45ca6e3118ea607ae3f92
+exl-id: 555f0633-633c-42ff-8923-adf626aa46c4
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 7%
 
 ---
 
-
 # Verwalten von Containern {#manage-containers}
 
-Ansicht oder Bearbeitung von Datenanbietern für Container.
+Anzeigen oder Bearbeiten von Datenanbietern für Container.
 
 <!-- t_containers.xml -->
 
 >[!NOTE]
 >
->Standardmäßig werden Firmen mit einem Container erstellt. Sie können weitere Container für eine Firma in der Benutzeroberfläche in **[!UICONTROL Tools > Tags]** erstellen.
+>Standardmäßig werden Unternehmen mit einem Container erstellt. Sie können weitere Container für ein Unternehmen in der Benutzeroberfläche in **[!UICONTROL Tools > Tags]** erstellen.
 
-1. Klicken Sie auf **[!UICONTROL Companies]**, suchen Sie die gewünschte Firma und klicken Sie darauf, um deren [!UICONTROL Profile]-Seite anzuzeigen.
+1. Klicken Sie auf **[!UICONTROL Companies]**, suchen Sie das gewünschte Unternehmen und klicken Sie auf das gewünschte Unternehmen, um dessen Seite [!UICONTROL Profile] anzuzeigen.
 
-   Verwenden Sie das Feld [!UICONTROL Search] oder die Paginierungssteuerelemente am unteren Rand der Liste, um die gewünschte Firma zu finden. Sie können jede Spalte in auf- oder absteigender Reihenfolge sortieren, indem Sie auf die Kopfzeile der gewünschten Spalte klicken.
+   Verwenden Sie das Feld [!UICONTROL Search] oder die Paginierungssteuerelemente am unteren Rand der Liste, um das gewünschte Unternehmen zu finden. Sie können jede Spalte in auf- oder absteigender Reihenfolge sortieren, indem Sie auf die Kopfzeile der gewünschten Spalte klicken.
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Containers]**.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Containers]** .
 
    ![](assets/containers.png)
 
-1. Klicken Sie auf die Zeile eines Containers, um die Datenanbieter für diesen Container Ansicht oder zu bearbeiten.
+1. Klicken Sie auf die Zeile eines Containers, um Datenanbieter für diesen Container anzuzeigen oder zu bearbeiten.
 
-   ![Schritt-Ergebnis](assets/containers_edit.png)
+   ![Schrittergebnis](assets/containers_edit.png)
 
-1. Verschieben Sie die Datenquellen aus den Listen **[!UICONTROL Available Data Sources]** und **[!UICONTROL Selected Data Sources for This Container]**, indem Sie die gewünschten Datenquellen auswählen und dann nach Bedarf auf den Rechts- oder Linkspfeil klicken.
+1. Verschieben Sie Datenquellen aus den Listen **[!UICONTROL Available Data Sources]** und **[!UICONTROL Selected Data Sources for This Container]**, indem Sie die gewünschten Datenquellen auswählen und dann nach Bedarf auf die Rechts- oder Linkspfeile klicken.
 
-   Sie können diese Aufgabe auch über die Seite [Datenanbieter von Drittanbietern](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)durchführen.
+   Sie können diese Aufgabe auch über die Seite [Datenanbieter von Drittanbietern](../companies/admin-third-party-providers.md#task_E942DD674D794BA6B8EFD52FD866E689)ausführen.
 
-1. Klicken Sie auf **[!UICONTROL Save]**, wenn Sie Änderungen vorgenommen haben.
+1. Klicken Sie auf **[!UICONTROL Save]** , wenn Sie Änderungen vorgenommen haben.
 
 >[!MORELIKETHIS]
 >
