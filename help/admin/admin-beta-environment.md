@@ -1,22 +1,21 @@
 ---
-description: Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. Änderungen, die in der Beta-Version vorgenommen werden, wirken sich nicht auf Produktionsdaten aus. Die Audience Manager Beta-Umgebung ist eine kleinere, eigenständige Version der Umgebung. Alle Daten, die Sie testen möchten, müssen in diese Umgebung eingegeben und gesammelt werden.
-seo-description: Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. Änderungen, die in der Beta-Version vorgenommen werden, wirken sich nicht auf Produktionsdaten aus. Die Audience Manager Beta-Umgebung ist eine kleinere, eigenständige Version der Umgebung. Alle Daten, die Sie testen möchten, müssen in diese Umgebung eingegeben und gesammelt werden.
+description: Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. Änderungen in der Beta-Version wirken sich nicht auf die Produktionsdaten aus. Die Audience Manager-Betaumgebung ist eine kleinere, eigenständige Version der Produktionsumgebung. Alle Daten, die Sie testen möchten, müssen in dieser Umgebung eingegeben und erfasst werden.
+seo-description: Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. Änderungen in der Beta-Version wirken sich nicht auf die Produktionsdaten aus. Die Audience Manager-Betaumgebung ist eine kleinere, eigenständige Version der Produktionsumgebung. Alle Daten, die Sie testen möchten, müssen in dieser Umgebung eingegeben und erfasst werden.
 seo-title: Beta-Umgebung
 solution: Audience Manager
 title: Beta-Umgebung
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
-translation-type: tm+mt
-source-git-commit: 7765dbf79c2fb6ca8c4b52fe8090c1fd11f9db27
+exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 3%
 
 ---
 
-
 # Beta-Umgebung {#beta-environment}
 
-Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. Änderungen, die in der Beta-Version vorgenommen werden, wirken sich nicht auf Produktionsdaten aus. Die Audience Manager Beta-Umgebung ist eine kleinere, eigenständige Version der Umgebung. Alle Daten, die Sie testen möchten, müssen in diese Umgebung eingegeben und gesammelt werden.
+Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. Änderungen in der Beta-Version wirken sich nicht auf die Produktionsdaten aus. Die Audience Manager-Betaumgebung ist eine kleinere, eigenständige Version der Produktionsumgebung. Alle Daten, die Sie testen möchten, müssen in dieser Umgebung eingegeben und erfasst werden.
 
 ## Überblick {#overview}
 
@@ -24,38 +23,38 @@ Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. Ände
 
 | Diensleistung | URL/Hostname | Schritte zur Bereitstellung |
 |--- |--- |--- |
-| S3 |  | Siehe [Amazon S3 Buckets](admin-beta-environment.md#provision-s3-buckets) bereitstellen. |
-| DCS | https&amp;colon;//dcs-beta.demdex.net/... | Keine zusätzlichen Schritte von unserer Seite aus erforderlich. Siehe [Zugriff auf den DCS in der Beta-Umgebung](admin-beta-environment.md#access-dcs-beta-environment). |
-| Benutzeroberfläche | https&amp;colon;//bank-beta.demdex.com | Die Daten werden monatlich von der Produktion in die Beta-Umgebung kopiert. Produktionsberechtigungen sind für Beta gültig. |
-| API | https&amp;colon;//api-beta.demdex.com/... | Die Daten werden monatlich von der Produktion in die Beta-Umgebung kopiert. Produktionsberechtigungen sind für Beta gültig. |
+| S3 |  | Siehe [Bereitstellen von Amazon S3 Buckets](admin-beta-environment.md#provision-s3-buckets). |
+| DCS | https&amp;colon;//dcs-beta.demdex.net/.. | Von unserer Seite aus brauchen wir keine weiteren Schritte. Siehe [Zugriff auf den DCS in der Beta-Umgebung](admin-beta-environment.md#access-dcs-beta-environment). |
+| Benutzeroberfläche | https&amp;colon;//bank-beta.demdex.com | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Produktionsberechtigungen sind für die Beta-Version gültig. |
+| API | https&amp;colon;//api-beta.demdex.com/.. | Die Daten werden monatlich aus der Produktion in die Beta-Umgebung kopiert. Produktionsberechtigungen sind für die Beta-Version gültig. |
 
-## Amazon S3-Behälter {#provision-s3-buckets}
+## Amazon S3-Behälter bereitstellen {#provision-s3-buckets}
 
 >[!NOTE]
 >
->Wir bewegen uns weg von der Verwendung von [!DNL FTP/SFTP]. Beachten Sie auch, dass ausgehende Datenübertragungen für die Beta-Umgebung nicht funktionieren.
+>Wir gehen weg von der Verwendung von [!DNL FTP/SFTP]. Beachten Sie außerdem, dass ausgehende Datenübertragungen für die Beta-Umgebung nicht funktionieren.
 
-So stellen Sie [!DNL S3]-Behälter für eingehende Daten bereit:
+So stellen Sie [!DNL S3] Behälter für eingehende Daten bereit:
 
 1. Verwenden Sie die Funktion [**SKMS Request TechOps Help**](https://skms.adobe.com/).
-1. Gehen Sie in der linken Navigationsleiste zu **[!UICONTROL Request TechOps Help]**.
-1. Geben Sie unter **[!UICONTROL Request Search]** in das Suchfeld Audience Manager ein.
-1. Blättern Sie in den Suchergebnissen nach unten und klicken Sie auf **Audience Manager - S3 Inbound / Outbound Account Provisioning**.
-1. Füllen Sie die Felder im Bereitstellungsfenster aus und geben Sie **Sandbox-Umgebung** im Feld **[!UICONTROL Environment]** ein.
+1. Navigieren Sie in der linken Navigationsleiste zu **[!UICONTROL Request TechOps Help]**.
+1. Geben Sie in **[!UICONTROL Request Search]** im Suchfeld Audience Manager ein.
+1. Scrollen Sie in den Suchergebnissen nach unten und klicken Sie auf **Audience Manager - S3 Inbound/Outbound Account Provisioning**.
+1. Füllen Sie die Felder im Bereitstellungsfenster aus und geben Sie **Sandbox-Umgebung** im Feld **[!UICONTROL Environment]** an.
 
 >[!NOTE]
 >
->Wir halten die Verwendung von [!DNL FTP/SFTP] ab und empfehlen die Verwendung von [!UICONTROL Amazon S3]. Die Gründe, warum wir die Verwendung von [!UICONTROL Amazon S3] empfehlen, sind in [Amazon S3:Info](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) aufgeführt.
+>Wir halten die Verwendung von [!DNL FTP/SFTP] ab und fördern die Verwendung von [!UICONTROL Amazon S3]. Die Gründe, warum wir die Verwendung von [!UICONTROL Amazon S3] fördern, sind in [Amazon S3:About](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) aufgeführt.
 
 ## Zugriff auf den DCS in der Beta-Umgebung {#access-dcs-beta-environment}
 
-So greifen Sie auf die [!UICONTROL DCS] in der Beta-Umgebung zu:
+So greifen Sie auf [!UICONTROL DCS] in der Beta-Umgebung zu:
 
-1. Führen Sie einen [!UICONTROL DCS]-Aufruf mit dem [!DNL curl] [Befehl](https://curl.haxx.se/docs/manpage.html) durch. [!DNL Curl] ist ein Tool zum Übertragen von Daten von oder auf einen Server unter Verwendung eines von vielen unterstützten Protokollen.
+1. Führen Sie einen [!UICONTROL DCS]-Aufruf mit dem Befehl [!DNL curl] [command](https://curl.haxx.se/docs/manpage.html) durch. [!DNL Curl] ist ein Tool zum Übertragen von Daten von oder auf einen Server mithilfe eines von vielen unterstützten Protokollen.
 
    Beispiel: `curl -v https://dcs-beta.demdex.net/event`
 
-1. Stellen Sie sicher, dass Ihre Anforderung von der Beta [!UICONTROL DCS] verarbeitet wurde, indem Sie in der [!UICONTROL DCS]-Antwortkopfzeile nach &quot;[!DNL sandbox]&quot;suchen.
+1. Stellen Sie sicher, dass Ihre Anfrage von der Beta [!UICONTROL DCS] bereitgestellt wurde, indem Sie in der [!UICONTROL DCS]-Antwortheader nach &quot;[!DNL sandbox]&quot;suchen.
 
    Beispiel:
 
