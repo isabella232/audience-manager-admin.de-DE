@@ -4,20 +4,19 @@ seo-description: Beispiele für häufig verwendete HTTP-Makrokombinationen.
 seo-title: Beispiele für HTTP-Formatmakros
 title: Beispiele für HTTP-Formatmakros
 uuid: a81a2e2a-de7e-4b6a-8771-fcfa0dc74570
-translation-type: tm+mt
-source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+exl-id: 1f8ccbf3-241d-4bd9-8c35-cf68b12d2713
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 15%
 
 ---
 
-
 # Beispiele für HTTP-Formatmakros {#http-format-macro-examples}
 
-Beispiele für häufig verwendete [!DNL HTTP]-Makrokombinationen.
+Beispiele für häufig verwendete Makro-Kombinationen [!DNL HTTP].
 
-Eine Liste der Makros und ihrer Definitionen finden Sie unter [HTTP-Formatmakros](../formats/web-formats.md).
+Eine Liste der Makros und ihrer Definitionen finden Sie unter [HTTP-Formatmakros](../formats/web-formats.md) .
 
 <table id="table_D5FAC5D056ED49D79FA883197EF8F42E"> 
  <thead> 
@@ -138,7 +137,7 @@ Eine Liste der Makros und ihrer Definitionen finden Sie unter [HTTP-Formatmakros
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>&lt;if(user.segments &amp;&amp; user.removedSegments)&gt;&lt;COMMA&gt;&lt;endif&gt;</code> </p> </td> 
-   <td colname="col2"> <p>Druckt ein Komma, wenn die Felder <code>segments</code> und <code>removedSegments</code> nicht leer sind. Diese Bedingung kann für Segmentanforderungen verwendet werden, wenn Listen für Segmente und entfernte POST miteinander verkettet werden. </p> </td> 
+   <td colname="col2"> <p>Druckt ein Komma, wenn die Felder <code>segments</code> und <code>removedSegments</code> nicht leer sind. Diese Bedingung kann für POST-Anforderungen beim Verketten von Listen für Segmente und entfernte Segmente verwendet werden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
