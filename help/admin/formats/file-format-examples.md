@@ -1,29 +1,28 @@
 ---
-description: Beispiele für die Verwendung von Makros zur Erstellung von FTP-Dateivorlagen.
-seo-description: Beispiele für die Verwendung von Makros zur Erstellung von FTP-Dateivorlagen.
+description: Beispiele für die Verwendung von Makros zur Erstellung ausgehender FTP-Dateivorlagen.
+seo-description: Beispiele für die Verwendung von Makros zur Erstellung ausgehender FTP-Dateivorlagen.
 seo-title: Beispiele für Dateiformatmakros
 title: Beispiele für Dateiformatmakros
 uuid: f00d431d-7e43-457a-b633-c79cbc4c8f10
-translation-type: tm+mt
-source-git-commit: 4c6d1752ff10d2d3d12cab88e823f25f5ef4fcd0
+exl-id: 132a8e40-8001-4a49-9304-82e852ee28fd
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 13%
 
 ---
 
-
 # Beispiele für Dateiformatmakros {#file-format-macro-examples}
 
-Beispiele dafür, wie Makros zum Erstellen von ausgehenden [!DNL FTP]-Dateivorlagen verwendet werden.
+Beispiele für die Verwendung von Makros zur Erstellung ausgehender [!DNL FTP]-Dateivorlagen.
 
 >[!NOTE]
 >
 >In den Tabellen identifiziert der Typ **boldface** jedes Makro mit seiner zugehörigen Ausgabe. Für die Formatbeispiele wurden die Symbole &lt; > hinzugefügt, um die einzelnen Makros visuell voneinander zu trennen.
 
-## Allgemeine Makros {#common-macros}
+## Häufige Makros {#common-macros}
 
-Diese Makros können in jedem Formatfeld verwendet werden. Eine vollständige Liste und Definitionen finden Sie unter [Dateiformatmakros](../formats/file-formats.md).
+Diese Makros können in jedem Formatfeld verwendet werden. Eine vollständige Liste und Definitionen finden Sie unter [Dateiformatmakros](../formats/file-formats.md) .
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -71,7 +70,7 @@ Diese Makros können in jedem Formatfeld verwendet werden. Eine vollständige Li
 
 ## Kopfzeilenfeldmakros {#header-field-macros}
 
-Makros, die nur in Kopfzeilenfeldern verwendet werden. Eine vollständige Liste und Definitionen finden Sie unter [Dateiformatmakros](../formats/file-formats.md).
+Makros, die nur in Kopfzeilenfeldern verwendet werden. Eine vollständige Liste und Definitionen finden Sie unter [Dateiformatmakros](../formats/file-formats.md) .
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -83,14 +82,14 @@ Makros, die nur in Kopfzeilenfeldern verwendet werden. Eine vollständige Liste 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Ausgabe: <code>888 full.sync </code> </p> <p>In der Ausgabe wird jedes Element durch das Tabulatorzeichen ohne Drucken getrennt. </p> </td>
+   <td colname="col2"> <p>Format: <code>&lt;ORDER_ID&gt; &lt;TAB&gt;&lt;SYNC_TYPE&gt; </code> </p> <p>Ausgabe: <code>888 full.sync </code> </p> <p>In der Ausgabe wird jedes Element durch das Tabulatorzeichen Nicht drucken getrennt. </p> </td>
   </tr>
  </tbody>
 </table>
 
 ## Datenzeilenmakros {#data-row-macros}
 
-Makros, die nur in Kopfzeilenfeldern verwendet werden. Eine vollständige Liste und Definitionen finden Sie unter [Dateiformatmakros](../formats/file-formats.md).
+Makros, die nur in Kopfzeilenfeldern verwendet werden. Eine vollständige Liste und Definitionen finden Sie unter [Dateiformatmakros](../formats/file-formats.md) .
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -129,7 +128,7 @@ Makros, die nur in Kopfzeilenfeldern verwendet werden. Eine vollständige Liste 
   </tr>
   <tr> 
    <td colname="col1"> <p> <code>TAB </code> </p> </td> 
-   <td colname="col2"> <p>Format: <code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Ausgabe: <code>123456 UUID1 UUID2 UUID3 </code> </p> <p>In der Ausgabe wird jedes Element durch das Tabulatorzeichen ohne Drucken getrennt. </p> </td> 
+   <td colname="col2"> <p>Format: <code>&lt;DP_UUID&gt;&lt;TAB&gt;&lt;DP_UUID_LIST;separator=TAB&gt; </code> </p> <p>Ausgabe: <code>123456 UUID1 UUID2 UUID3 </code> </p> <p>In der Ausgabe wird jedes Element durch das Tabulatorzeichen Nicht drucken getrennt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>TRAIT_LIST </code> </p> </td> 
