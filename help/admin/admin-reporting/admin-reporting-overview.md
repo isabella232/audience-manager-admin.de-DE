@@ -1,21 +1,20 @@
 ---
-description: Verwalten Sie Audience Manager-Berichte, indem Sie neue Berichte erstellen oder vorhandene Berichte bearbeiten oder löschen. Sie können auch einen Portalbenutzer als Tableau-Benutzer zuweisen.
-seo-description: Verwalten Sie Audience Manager-Berichte, indem Sie neue Berichte erstellen oder vorhandene Berichte bearbeiten oder löschen. Sie können auch einen Portalbenutzer als Tableau-Benutzer zuweisen.
+description: Verwalten Sie Audience Manager-Berichte, indem Sie neue Berichte erstellen oder bestehende Berichte bearbeiten oder löschen. Sie können einen Portal-Benutzer auch als Tableau-Benutzer zuweisen.
+seo-description: Verwalten Sie Audience Manager-Berichte, indem Sie neue Berichte erstellen oder bestehende Berichte bearbeiten oder löschen. Sie können einen Portal-Benutzer auch als Tableau-Benutzer zuweisen.
 seo-title: Berichterstellung
 title: Berichterstellung
 uuid: d857044b-926d-4862-b8bc-799cb3ecca56
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: 3a8ac019-a91b-493c-a59f-700a2624c9ec
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 2%
 
 ---
 
-
 # Berichterstellung {#reporting}
 
-Verwalten Sie Audience Manager-Berichte, indem Sie neue Berichte erstellen oder vorhandene Berichte bearbeiten oder löschen. Sie können auch einen Portalbenutzer als [!DNL Tableau]-Benutzer zuweisen.
+Verwalten Sie Audience Manager-Berichte, indem Sie neue Berichte erstellen oder bestehende Berichte bearbeiten oder löschen. Sie können einen Portal-Benutzer auch als [!DNL Tableau] Benutzer zuweisen.
 
 <!-- c_reporting.xml -->
 
