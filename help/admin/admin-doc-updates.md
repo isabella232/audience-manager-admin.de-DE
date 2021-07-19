@@ -12,7 +12,7 @@ ht-degree: 99%
 
 ---
 
-# Dokumentation – Aktualisierungen {#documentation-updates}
+# Aktualisierungen der Dokumentation {#documentation-updates}
 
 Alle Aktualisierungen (Ergänzungen, Streichungen und Korrekturen) des Audience Manager Admin-Handbuchs nach Datum.
 
