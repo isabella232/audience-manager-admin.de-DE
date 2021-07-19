@@ -1,27 +1,26 @@
 ---
-description: 'Verwenden Sie beim Debugging von Kundenproblemen zuerst die Prüfprotokollierung. '
-seo-description: 'Verwenden Sie beim Debugging von Kundenproblemen zuerst die Prüfprotokollierung. '
+description: 'Verwenden Sie die Auditprotokollierung als ersten Schritt zum Debuggen von Kundenproblemen. '
+seo-description: 'Verwenden Sie die Auditprotokollierung als ersten Schritt zum Debuggen von Kundenproblemen. '
 seo-title: Prüfprotokollierung
 title: Prüfprotokollierung
 uuid: null
-translation-type: tm+mt
-source-git-commit: 53bf192d17e107f5f696712e578921abaa52b9ab
+exl-id: ff68f90f-b521-4560-9bf6-a7a6a588adf9
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 9%
 
 ---
 
-
 # Prüfprotokollierung {#audit-logging}
 
-Verwenden Sie [!UICONTROL  Audit Logging] als ersten Schritt, um Probleme von Kunden zu debuggen.
+Verwenden Sie [!UICONTROL  Audit Logging] als ersten Schritt zum Debuggen von Kundenproblemen.
 
 >[!NOTE]
 >
->Die [!UICONTROL Audit Logging]-Funktionalität und -Dokumentation wird derzeit entwickelt und kann geändert werden. Bitte protokollieren Sie alle Probleme, mit denen Sie im [!DNL JIRA]- ([!DNL UI]-Team) konfrontiert sind.
+>Die [!UICONTROL Audit Logging]-Funktionalität und -Dokumentation befindet sich derzeit in der Entwicklung und kann geändert werden. Bitte protokollieren Sie alle Probleme, auf die Sie stoßen, im [!DNL JIRA]-Team ([!DNL UI]).
 
-![Ansicht zur Prüfprotokollierung](assets/audit-logging-img.png)
+![Ansicht &quot;Audit Logging&quot;](assets/audit-logging-img.png)
 
 <!-- 
 
