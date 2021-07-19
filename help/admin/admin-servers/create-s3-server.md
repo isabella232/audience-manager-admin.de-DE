@@ -1,21 +1,20 @@
 ---
-description: Verwenden Sie die Seite "Server"im Audience Manager-Admin-Tool, um einen neuen S3-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
-seo-description: Verwenden Sie die Seite "Server"im Audience Manager-Admin-Tool, um einen neuen S3-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
+description: Verwenden Sie die Server-Seite im Audience Manager Admin Tool, um einen neuen S3-Server zu erstellen oder einen bestehenden Server zu bearbeiten.
+seo-description: Verwenden Sie die Server-Seite im Audience Manager Admin Tool, um einen neuen S3-Server zu erstellen oder einen bestehenden Server zu bearbeiten.
 seo-title: Erstellen und Bearbeiten von S3-Servern
 title: Erstellen und Bearbeiten von S3-Servern
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
-translation-type: tm+mt
-source-git-commit: be661580da839ce6332a0ad827dec08e854abe54
+exl-id: 89310de0-e24e-4d4b-8171-56faf0b441f6
+source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 9%
 
 ---
 
-
 # Erstellen und Bearbeiten von S3-Servern {#create-or-edit-an-s-server}
 
-Verwenden Sie die Seite [!UICONTROL Servers] im Audience Manager-Admin-Tool, um einen neuen [!DNL S3]-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
+Verwenden Sie die Seite [!UICONTROL Servers] im Audience Manager Admin-Tool, um einen neuen [!DNL S3]-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
 
 >[!NOTE]
 >
@@ -23,18 +22,18 @@ Verwenden Sie die Seite [!UICONTROL Servers] im Audience Manager-Admin-Tool, um 
 
 1. Um einen neuen Server zu erstellen, klicken Sie auf **[!UICONTROL Servers]** > **[!UICONTROL Create Server]**. Um einen vorhandenen Server zu bearbeiten, klicken Sie in der Spalte **[!UICONTROL Label]** auf den gewünschten Server.
 1. Geben Sie die gewünschte Bezeichnung für diesen Server an.
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Protocol]** das gewünschte Protokoll aus: **[!UICONTROL S3]**.
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL Protocol]** das gewünschte Protokoll aus: **[!UICONTROL S3]**.
 
    >[!NOTE]
    >
-   >Es wird empfohlen, [!DNL Amazon S3] als Methode zum Abrufen von Dateien und zum Senden von Dateien an Partner zu verwenden. [!DNL Amazon S3] bietet eine einfache Web-Services-Oberfläche, die verwendet werden kann, um eine beliebige Menge von Daten zu speichern und abzurufen, jederzeit und überall im Web. Weitere Informationen finden Sie unter [Info zu Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) im *Audience Manager-Benutzerhandbuch*.
+   >Es wird empfohlen, [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien an Partner zu verwenden. [!DNL Amazon S3] bietet eine einfache Web-Services-Oberfläche, die verwendet werden kann, um eine beliebige Menge von Daten jederzeit von überall aus im Internet zu speichern und abzurufen. Weitere Informationen finden Sie unter [Über Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) im *Audience Manager-Benutzerhandbuch*.
 
 1. Füllen Sie die Felder aus:
 
    * **[!UICONTROL Account]:** Geben Sie das gewünschte  [!DNL S3] Konto an.
    * **[!UICONTROL Bucket]:** Geben Sie den gewünschten  [!DNL S3] Behälter an.
-   * **[!UICONTROL Directory]:** Geben Sie den gewünschten  [!DNL S3] Ordner an.
-   * **[!UICONTROL Access Key]:** Geben Sie den gewünschten  [!DNL S3] Zugriffsschlüssel ein.
+   * **[!UICONTROL Directory]:** Geben Sie das gewünschte  [!DNL S3] Verzeichnis an.
+   * **[!UICONTROL Access Key]:** Geben Sie den gewünschten  [!DNL S3] Zugriffsschlüssel an.
    * **[!UICONTROL Secret Key]:** Geben Sie den gewünschten  [!DNL S3] geheimen Schlüssel an.
 
-1. Klicken Sie auf **[!UICONTROL Create]**, wenn Sie einen neuen Server erstellen, oder auf **[!UICONTROL Update]**, wenn Sie einen vorhandenen Server bearbeiten.
+1. Klicken Sie auf **[!UICONTROL Create]**, wenn Sie einen neuen Server erstellen, oder auf **[!UICONTROL Update]** , wenn Sie einen vorhandenen Server bearbeiten.
