@@ -5,7 +5,6 @@ user-guide-title: Audience Manager Admin-Handbuch
 breadcrumb-title: Administratorenanleitung
 breadcrumb-url: /docs/audience-manager-admin/admin-guide/admin-home.html
 user-guide-description: Mit dem Audience Manager Admin-Tool können Sie Firmen, Server, Berichte, Formate und Benutzer hinzufügen und konfigurieren. Sie können außerdem Ihr persönliches Profil anzeigen und bearbeiten.
-translation-type: tm+mt
 source-git-commit: fb3eb6ee29332a84f2f389d4c6a2b6e2b7d0fced
 workflow-type: tm+mt
 source-wordcount: '181'
@@ -56,4 +55,4 @@ ht-degree: 100%
 + [Mein Profil](admin-my-profile.md)
 + [Fehlerbehebung bei der Zieleinrichtung](admin-destination-troubleshooting.md)
 + [Beta-Umgebung](admin-beta-environment.md)
-+ [Dokumentation – Aktualisierungen](admin-doc-updates.md)
++ [Aktualisierungen der Dokumentation](admin-doc-updates.md)
