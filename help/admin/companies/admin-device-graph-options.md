@@ -1,14 +1,14 @@
 ---
 description: Die Gerätediagrammoptionen stehen Unternehmen zur Verfügung, die an der Adobe Experience Cloud-Gerätekooperation teilnehmen. Wenn ein Kunde auch eine Vertragsbeziehung mit einem Gerätediagramm-Drittanbieter unterhält, der in Audience Manager integriert ist, werden in diesem Abschnitt Optionen für dieses Gerätediagramm angezeigt. Diese Optionen finden Sie unter Unternehmen > Firmenname > Profil > Gerätediagrammoptionen.
-seo-description: Die Gerätediagrammoptionen stehen Unternehmen zur Verfügung, die an der Adobe Experience Cloud-Gerätekooperation teilnehmen. Wenn ein Kunde auch eine Vertragsbeziehung mit einem Gerätediagramm-Drittanbieter unterhält, der in Audience Manager integriert ist, werden in diesem Abschnitt Optionen für dieses Gerätediagramm angezeigt. Diese Optionen finden Sie unter Unternehmen > Firmenname > Profil > Gerätediagrammoptionen.
-seo-title: Gerätediagrammoptionen für Firmen
+seo-description: The Device Graph Options are available to companies that participate in the Adobe Experience Cloud Device Co-op. If a customer also has a contractual relationship with a third-party device graph provider that is integrated with Audience Manager, this section will show options for that device graph. These options are located in Companies > company name > Profile > Device Graph Options.
+seo-title: Device Graph Options for Companies
 title: Gerätediagrammoptionen für Firmen
 uuid: a8ced843-710c-4a8f-a0d7-ea89d010a7a5
 exl-id: 2502f3d2-b43c-410c-acb6-03c2a2ba2c1d
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 4%
+source-wordcount: '482'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Die hier ausgewählten Gerätediagrammoptionen zeigen [!UICONTROL Device Options
 
 ### Co-op-Gerätediagramm {#co-op-graph}
 
-Kunden, die an der [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/) teilnehmen, verwenden diese Optionen, um eine [!UICONTROL Profile Merge Rule] mit [deterministischen und probabilistischen Daten](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-links.html) zu erstellen. Der [!DNL Corporate Provisioning Team] aktiviert und deaktiviert diese Option über einen Back-End-Aufruf [!DNL API]. Sie können diese Felder im [!DNL Admin UI] nicht aktivieren oder löschen. Außerdem schließen sich die Optionen **[!UICONTROL Co-op Device Graph]** und **[!UICONTROL Company Device Graph]** gegenseitig aus. Kunden können uns bitten, das eine oder das andere zu aktivieren, aber nicht beides. Wenn diese Option aktiviert ist, wird das **[!UICONTROL Co-op Device Graph]**-Steuerelement in den [!UICONTROL Device Options]-Einstellungen für [!UICONTROL Profile Merge Rule] verfügbar gemacht.
+Kunden, die an der [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html?lang=en) teilnehmen, verwenden diese Optionen, um eine [!UICONTROL Profile Merge Rule] mit [deterministischen und probabilistischen Daten](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=en) zu erstellen. Der [!DNL Corporate Provisioning Team] aktiviert und deaktiviert diese Option über einen Back-End-Aufruf [!DNL API]. Sie können diese Felder im [!DNL Admin UI] nicht aktivieren oder löschen. Außerdem schließen sich die Optionen **[!UICONTROL Co-op Device Graph]** und **[!UICONTROL Company Device Graph]** gegenseitig aus. Kunden können uns bitten, das eine oder das andere zu aktivieren, aber nicht beides. Wenn diese Option aktiviert ist, wird das **[!UICONTROL Co-op Device Graph]**-Steuerelement in den [!UICONTROL Device Options]-Einstellungen für [!UICONTROL Profile Merge Rule] verfügbar gemacht.
 
 ![](assets/adminUI1.png)
 
@@ -39,7 +39,7 @@ Kunden, die an der [Adobe Experience Cloud Device Co-op](https://marketing.adobe
 Diese Option richtet sich an [!DNL Analytics] -Kunden, die die Metrik [!UICONTROL People] in ihrer Report Suite [!DNL Analytics] verwenden. Der [!DNL Corporate Provisioning Team] aktiviert und deaktiviert diese Option über einen Back-End-Aufruf [!DNL API]. Sie können diese Felder im [!DNL Admin UI] nicht aktivieren oder löschen. Außerdem schließen sich die Optionen **[!UICONTROL Company Device Graph]** und **[!UICONTROL Co-op Device Graph]** gegenseitig aus. Kunden können uns bitten, das eine oder das andere zu aktivieren, aber nicht beides. Wenn aktiviert:
 
 * Dieses Gerätediagramm verwendet deterministische Daten, die zu dem Unternehmen gehören, das Sie konfigurieren (keine probabilistischen Daten).
-* [!DNL Audience Manager] erstellt automatisch einen  [!UICONTROL Data Source] benannten  `*`Partnernamen`*-Company Device Graph-Person`. Auf der Detailseite [!UICONTROL Data Source] können [!DNL Audience Manager] Kunden den Partnernamen und die Beschreibung ändern und [Datenexportkontrollen](https://marketing.adobe.com/resources/help/en_US/aam/c_dec.html) auf diese Datenquelle anwenden.
+* [!DNL Audience Manager] erstellt automatisch einen  [!UICONTROL Data Source] benannten  `*`Partnernamen`*-Company Device Graph-Person`. Auf der Detailseite [!UICONTROL Data Source] können [!DNL Audience Manager] Kunden den Partnernamen und die Beschreibung ändern und [Datenexportkontrollen](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html?lang=en) auf diese Datenquelle anwenden.
 * [!DNL Audience Manager] -Kunden  *sehen* keine neue Einstellung im  [!UICONTROL Device Options] Abschnitt für  [!UICONTROL Profile Merge Rule].
 
 ### LiveRamp-Gerätediagramm (Person oder Haushalt) {#liveramp-device-graph}
@@ -50,6 +50,6 @@ Diese Kontrollkästchen sind in [!DNL Admin UI] aktiviert, wenn ein Partner ein 
 
 >[!MORELIKETHIS]
 >
->* [Für Profilzusammenführungsrichtlinien definierte Optionen](https://marketing.adobe.com/resources/help/en_US/aam/merge-rule-definitions.html)
->* [Datenquelleneinstellungen und Menüoptionen](https://marketing.adobe.com/resources/help/en_US/aam/datasource-settings-definitions.html)
+>* [Für Profilzusammenführungsrichtlinien definierte Optionen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/merge-rule-definitions.html?lang=en)
+>* [Datenquelleneinstellungen und Menüoptionen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=en)
 

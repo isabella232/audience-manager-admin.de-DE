@@ -1,14 +1,14 @@
 ---
 description: Alle Aktualisierungen (Ergänzungen, Streichungen und Korrekturen) des Audience Manager Admin-Handbuchs nach Datum.
-seo-description: Alle Aktualisierungen (Ergänzungen, Streichungen und Korrekturen) des Audience Manager Admin-Handbuchs nach Datum.
-seo-title: Aktualisierungen der Dokumentation
+seo-description: All updates (additions, deletions, and corrections) to the Audience Manager Admin Guide, by date.
+seo-title: Documentation Updates
 title: Aktualisierungen der Dokumentation
 uuid: 1c02dff5-8e3f-42bf-a50c-03b75e121ac7
 exl-id: 8221b4df-99c2-47d3-a2ea-186a701a2b20
-source-git-commit: 7767c20bf97ee5c602b60dc6c11a5cd2bf21835d
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 99%
+source-wordcount: '600'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 Alle Aktualisierungen (Ergänzungen, Streichungen und Korrekturen) des Audience Manager Admin-Handbuchs nach Datum.
 
-Informationen zu Funktionsversionen, Verbesserungen und Fehlerbehebungen finden Sie in den [Experience Cloud-Versionshinweisen](https://marketing.adobe.com/resources/help/de_DE/whatsnew/). Ältere Ankündigungen zu Experience Cloud finden Sie unter [Frühere Versionshinweise](https://marketing.adobe.com/resources/help/de_DE/whatsnew/c_legacy_releases.html). Informationen zu den Änderungen der Dokumentation für [!DNL Audience Manager] finden Sie unter [Aktualisierungen der Dokumentation](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/documentation-updates/docs-2019.html).
+Informationen zu Funktionsversionen, Verbesserungen und Fehlerbehebungen finden Sie in den [Experience Cloud-Versionshinweisen](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en). Informationen zu den Änderungen der Dokumentation für [!DNL Audience Manager] finden Sie unter [Aktualisierungen der Dokumentation](https://experienceleague.adobe.com/docs/audience-manager/user-guide/documentation-updates/docs-2019.html?lang=en).
 
 ## Aktualisierungen der Dokumentation zu AAM 2019 {#aam-2019-docs-updates}
 
@@ -100,7 +100,7 @@ Informationen zu Funktionsversionen, Verbesserungen und Fehlerbehebungen finden 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="admin-oauth2/aam-admin-api-requirements.md#concept_A7FAC9443CF34974A873E6B787616421"> API-Anforderungen und -Empfehlungen</a> </p> </td> 
-   <td colname="col2"> <p>Neue Dokumentation, in der einige Anforderungen und Empfehlungen beschrieben werden, die Sie kennen und an Kunden weitergeben sollten. Dies wird in den öffentlichen Dokumenten mit demselben Titel und Änderungen für eine andere Leserschaft dupliziert. Siehe <a href="https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.translate.html#api-requirements-recommendations" format="https" scope="external">API-Anforderungen und -Empfehlungen</a> in den öffentlichen Dokumenten. </p> </td> 
+   <td colname="col2"> <p>Neue Dokumentation, in der einige Anforderungen und Empfehlungen beschrieben werden, die Sie kennen und an Kunden weitergeben sollten. Dies wird in den öffentlichen Dokumenten mit demselben Titel und Änderungen für eine andere Leserschaft dupliziert. Siehe <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/rest-apis/aam-api-getting-started.html?lang=en#api-requirements-recommendations" format="https" scope="external">API-Anforderungen und -Empfehlungen</a> in den öffentlichen Dokumenten. </p> </td> 
   </tr> 
  </tbody> 
 </table>

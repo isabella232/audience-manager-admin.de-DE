@@ -1,14 +1,14 @@
 ---
 description: Verwenden Sie die Seite "Formate"im Audience Manager-Admin-Tool, um ein neues Format zu erstellen oder ein vorhandenes Format zu bearbeiten.
-seo-description: Verwenden Sie die Seite "Formate"im Audience Manager-Admin-Tool, um ein neues Format zu erstellen oder ein vorhandenes Format zu bearbeiten.
-seo-title: Erstellen oder Bearbeiten von Formaten
+seo-description: Use the Formats page in the Audience Manager Admin tool to create a new format or to edit an existing format.
+seo-title: Create or Edit a Format
 title: Erstellen oder Bearbeiten von Formaten
 uuid: ca1b1feb-bcd3-4a41-b1e8-80565f6c23ae
 exl-id: 3c97d1e9-8093-4181-a1fd-fb1816cdaa3d
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 5%
+source-wordcount: '420'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Verwenden Sie die Seite [!UICONTROL Formats] im Audience Manager Admin-Tool, um 
    * **[!UICONTROL Data Row]:** Geben Sie den Text an, der in jeder ausgehenden Zeile der Datei angezeigt wird.
    * **[!UICONTROL Maximum File Size (In MB)]:** Geben Sie die maximale Dateigröße für Datenübertragungsdateien an. Komprimierte Dateien müssen kleiner als 100 MB sein. Die unkomprimierte Dateigröße ist nicht beschränkt.
    * **[!UICONTROL Compression]:**  Wählen Sie den gewünschten Komprimierungstyp aus: gz oder zip für Ihre Datendateien. Für die Bereitstellung an [!UICONTROL AWS S3] müssen Sie .gz- oder unkomprimierte Dateien verwenden.
-   * **[!UICONTROL .info Receipt]:** Gibt an, dass eine Übertragungssteuerungsdatei ([!DNL .info]) generiert wird. Die Datei [!DNL .info] enthält Metadateninformationen zu Dateiübertragungen, damit Partner überprüfen können, ob der Audience Manager die Dateiübertragungen ordnungsgemäß verarbeitet hat. Weitere Informationen finden Sie unter [Dateiübertragungen für Protokolldateiübertragungen](https://marketing.adobe.com/resources/help/en_US/aam/c_s2s_add_transfer_control_files.html).
+   * **[!UICONTROL .info Receipt]:** Gibt an, dass eine Übertragungssteuerungsdatei ([!DNL .info]) generiert wird. Die Datei [!DNL .info] enthält Metadateninformationen zu Dateiübertragungen, damit Partner überprüfen können, ob der Audience Manager die Dateiübertragungen ordnungsgemäß verarbeitet hat. Weitere Informationen finden Sie unter [Dateiübertragungen für Protokolldateiübertragungen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/transfer-control-files.html?lang=en).
    * **[!UICONTROL MD5 Checksum Receipt]:** Gibt an, dass ein  [!DNL MD5] Prüfsummenbeleg generiert wird. Der [!DNL MD5]-Prüfsummenbeleg, damit Partner überprüfen können, ob der Audience Manager den vollständigen Transfer ordnungsgemäß durchgeführt hat.
 
 1. (Bedingt) Wenn Sie **[!UICONTROL HTTP]** auswählen, füllen Sie die Felder aus:

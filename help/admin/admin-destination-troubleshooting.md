@@ -1,13 +1,13 @@
 ---
 description: Informationen, die Sie bei der Einrichtung von Zielen in Audience Manager unterstützen und allgemeine Probleme vermeiden.
-seo-description: Informationen, die Sie bei der Einrichtung von Zielen in Audience Manager unterstützen und allgemeine Probleme vermeiden.
-seo-title: Fehlerbehebung bei der Zieleinrichtung
+seo-description: Information to help you set up destinations in Audience Manager and avoid common problems.
+seo-title: Destination Setup Troubleshooting
 title: Fehlerbehebung bei der Zieleinrichtung
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1316'
 ht-degree: 4%
 
 ---
@@ -74,7 +74,7 @@ Der ausgehende Prozess wird zweimal täglich ausgeführt, und es werden mehrere 
 
 ### Dateiaufspaltungsgrößen zu groß
 
-Wenn Sie Dateien an Ziele aussenden, können Sie größere ausgehende Dateien in Dateiblöcke aufteilen. Stellen Sie sicher, dass die einzelnen Dateiblöcke nicht größer als 10 GB sind. Siehe auch [Dateiname der ausgehenden Daten: Syntax und Beispiele](https://docs.adobe.com/help/en/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html).
+Wenn Sie Dateien an Ziele aussenden, können Sie größere ausgehende Dateien in Dateiblöcke aufteilen. Stellen Sie sicher, dass die einzelnen Dateiblöcke nicht größer als 10 GB sind. Siehe auch [Dateiname der ausgehenden Daten: Syntax und Beispiele](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
 ## Einrichten Ihrer Ziele zum Exportieren von Experience Cloud-IDs, Kunden-IDs oder Audience Manager-IDs in ausgehende Datendateien {#set-up-destinations-export}
@@ -89,7 +89,7 @@ Ziele ermöglichen es unseren Kunden, ihre Daten über eine beliebige Anzahl dig
 >
 >Eine ausführliche Anleitung zum Erstellen von Zielen in der Admin-Benutzeroberfläche finden Sie im Artikel [Erstellen oder Bearbeiten von Unternehmenszielen](companies/admin-manage-company-destinations.md#create-edit-company-destinations) .
 
-Ihre Kunden möchten je nach Ziel unterschiedliche ID-Typen exportieren. Das folgende Konfigurationdiagramm zeigt die Optionen, die Sie auswählen sollten, um Profilinformationen zu unterschiedlichen ID-Typen zu exportieren. Es wird empfohlen, auch auf den [Index der IDs in Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html) zu verweisen. Es sind drei wichtige Einstellungen zu beachten: die [!UICONTROL User ID Key], die [!UICONTROL Data Source Type] und die [!UICONTROL Format]. Wir führen sie alle im Folgenden detailliert auf.
+Ihre Kunden möchten je nach Ziel unterschiedliche ID-Typen exportieren. Das folgende Konfigurationdiagramm zeigt die Optionen, die Sie auswählen sollten, um Profilinformationen zu unterschiedlichen ID-Typen zu exportieren. Es wird empfohlen, auch auf den [Index der IDs in Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en) zu verweisen. Es sind drei wichtige Einstellungen zu beachten: die [!UICONTROL User ID Key], die [!UICONTROL Data Source Type] und die [!UICONTROL Format]. Wir führen sie alle im Folgenden detailliert auf.
 
 * [!UICONTROL User ID Key]. Gehen Sie in [!UICONTROL Admin UI] zu **[!UICONTROL Companies]**. Suchen Sie nach dem Unternehmen Ihres Kunden und klicken Sie darauf. Suchen Sie nach der Registerkarte **[!UICONTROL Destinations]** und drücken Sie **[!UICONTROL Add Destination]**. Wählen Sie im Workflow **[!UICONTROL Add Destination]** die Option [!UICONTROL User ID Key] aus. Der [!UICONTROL User ID Key] filtert die eingehenden IDs aus der Zieldatenquelle und lässt nur die Übergabe der IDs zu.
 
