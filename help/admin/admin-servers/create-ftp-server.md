@@ -1,14 +1,14 @@
 ---
 description: Verwenden Sie die Seite "Server"im Audience Manager Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
-seo-description: Verwenden Sie die Seite "Server"im Audience Manager Admin-Tool, um einen neuen FTP-Server zu erstellen oder einen vorhandenen Server zu bearbeiten.
-seo-title: Erstellen und Bearbeiten von FTP-Servern
+seo-description: Use the Servers page in the Audience Manager Admin tool to create a new FTP server or to edit an existing server.
+seo-title: Create or Edit an FTP Server
 title: Erstellen und Bearbeiten von FTP-Servern
 uuid: 9273abb2-963d-4d83-bf5a-b3817f0b90e6
 exl-id: 9eae4ecf-ccde-483a-ae53-1cbac033d8d6
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 5%
+source-wordcount: '393'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Verwenden Sie die Seite [!UICONTROL Servers] im Audience Manager Admin-Tool, um 
 
    >[!NOTE]
    >
-   >Als Best Practice empfehlen wir die Verwendung von [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien an Partner. [!DNL Amazon S3] bietet eine einfache Web-Services-Oberfläche, die verwendet werden kann, um eine beliebige Menge von Daten jederzeit von überall aus im Internet zu speichern und abzurufen. Weitere Informationen finden Sie unter [Über Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) im *Audience Manager-Benutzerhandbuch*.
+   >Als Best Practice empfehlen wir die Verwendung von [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien an Partner. [!DNL Amazon S3] bietet eine einfache Web-Services-Oberfläche, die verwendet werden kann, um eine beliebige Menge von Daten jederzeit von überall aus im Internet zu speichern und abzurufen. Weitere Informationen finden Sie unter [Über Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) im *Audience Manager-Benutzerhandbuch*.
 
 1. Füllen Sie die Felder aus:
 

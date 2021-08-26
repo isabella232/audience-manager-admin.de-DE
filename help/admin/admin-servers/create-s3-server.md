@@ -1,14 +1,14 @@
 ---
 description: Verwenden Sie die Server-Seite im Audience Manager Admin Tool, um einen neuen S3-Server zu erstellen oder einen bestehenden Server zu bearbeiten.
-seo-description: Verwenden Sie die Server-Seite im Audience Manager Admin Tool, um einen neuen S3-Server zu erstellen oder einen bestehenden Server zu bearbeiten.
-seo-title: Erstellen und Bearbeiten von S3-Servern
+seo-description: Use the Servers page in the Audience Manager Admin tool to create a new S3 server or to edit an existing server.
+seo-title: Create or Edit an S3 Server
 title: Erstellen und Bearbeiten von S3-Servern
 uuid: 94fee787-eb26-45aa-b602-d61ab12969ea
 exl-id: 89310de0-e24e-4d4b-8171-56faf0b441f6
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 9%
+source-wordcount: '207'
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ Verwenden Sie die Seite [!UICONTROL Servers] im Audience Manager Admin-Tool, um 
 
    >[!NOTE]
    >
-   >Es wird empfohlen, [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien an Partner zu verwenden. [!DNL Amazon S3] bietet eine einfache Web-Services-Oberfläche, die verwendet werden kann, um eine beliebige Menge von Daten jederzeit von überall aus im Internet zu speichern und abzurufen. Weitere Informationen finden Sie unter [Über Amazon S3](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) im *Audience Manager-Benutzerhandbuch*.
+   >Es wird empfohlen, [!DNL Amazon S3] als Methode zum Abrufen von Dateien von und zum Bereitstellen von Dateien an Partner zu verwenden. [!DNL Amazon S3] bietet eine einfache Web-Services-Oberfläche, die verwendet werden kann, um eine beliebige Menge von Daten jederzeit von überall aus im Internet zu speichern und abzurufen. Weitere Informationen finden Sie unter [Über Amazon S3](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) im *Audience Manager-Benutzerhandbuch*.
 
 1. Füllen Sie die Felder aus:
 

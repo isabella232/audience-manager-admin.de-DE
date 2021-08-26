@@ -1,14 +1,14 @@
 ---
 description: Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. Änderungen in der Beta-Version wirken sich nicht auf die Produktionsdaten aus. Die Audience Manager-Betaumgebung ist eine kleinere, eigenständige Version der Produktionsumgebung. Alle Daten, die Sie testen möchten, müssen in dieser Umgebung eingegeben und erfasst werden.
-seo-description: Die Beta-Umgebung dient zum Testen von Audience Manager-Implementierungen. Änderungen in der Beta-Version wirken sich nicht auf die Produktionsdaten aus. Die Audience Manager-Betaumgebung ist eine kleinere, eigenständige Version der Produktionsumgebung. Alle Daten, die Sie testen möchten, müssen in dieser Umgebung eingegeben und erfasst werden.
-seo-title: Beta-Umgebung
+seo-description: The beta environment is for testing Audience Manager implementations. Changes made in beta do not affect production data. The Audience Manager beta environment is a smaller-scale, standalone version of the production environment. All the data that you want to test must be entered and collected in this environment.
+seo-title: Beta Environment
 solution: Audience Manager
 title: Beta-Umgebung
 uuid: 6a253f4e-96e7-4395-a783-a8eb213b7daf
 exl-id: 78d5a1ff-c016-4366-ba34-9814a0d92067
-source-git-commit: f5d74995f0664cf63e68b46f1f3c608f34df0e80
+source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '362'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ So stellen Sie [!DNL S3] Behälter für eingehende Daten bereit:
 
 >[!NOTE]
 >
->Wir halten die Verwendung von [!DNL FTP/SFTP] ab und fördern die Verwendung von [!UICONTROL Amazon S3]. Die Gründe, warum wir die Verwendung von [!UICONTROL Amazon S3] fördern, sind in [Amazon S3:About](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/amazon-s3.html) aufgeführt.
+>Wir halten die Verwendung von [!DNL FTP/SFTP] ab und fördern die Verwendung von [!UICONTROL Amazon S3]. Die Gründe, warum wir die Verwendung von [!UICONTROL Amazon S3] fördern, sind in [Amazon S3:About](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/amazon-s3.html) aufgeführt.
 
 ## Zugriff auf den DCS in der Beta-Umgebung {#access-dcs-beta-environment}
 
