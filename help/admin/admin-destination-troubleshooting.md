@@ -5,7 +5,7 @@ seo-title: Destination Setup Troubleshooting
 title: Fehlerbehebung bei der Zieleinrichtung
 uuid: 04080fb9-6c7b-4de7-960e-54482be2de83
 exl-id: 53c72b1a-f1a1-4266-a595-e4821c2640b2
-source-git-commit: 1f4dbf8f7b36e64c3015b98ef90b6726d0e7495a
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 4%
@@ -74,7 +74,7 @@ Der ausgehende Prozess wird zweimal täglich ausgeführt, und es werden mehrere 
 
 ### Dateiaufspaltungsgrößen zu groß
 
-Wenn Sie Dateien an Ziele aussenden, können Sie größere ausgehende Dateien in Dateiblöcke aufteilen. Stellen Sie sicher, dass die einzelnen Dateiblöcke nicht größer als 10 GB sind. Siehe auch [Dateiname der ausgehenden Daten: Syntax und Beispiele](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implemenation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
+Wenn Sie Dateien an Ziele aussenden, können Sie größere ausgehende Dateien in Dateiblöcke aufteilen. Stellen Sie sicher, dass die einzelnen Dateiblöcke nicht größer als 10 GB sind. Siehe auch [Dateiname der ausgehenden Daten: Syntax und Beispiele](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/receiving-audience-data/batch-outbound-data-transfers/outbound-file-name-contents.html?lang=en).
 
 
 ## Einrichten Ihrer Ziele zum Exportieren von Experience Cloud-IDs, Kunden-IDs oder Audience Manager-IDs in ausgehende Datendateien {#set-up-destinations-export}

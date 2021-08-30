@@ -5,9 +5,9 @@ seo-title: API Requirements and Recommendations
 title: API-Anforderungen und -Empfehlungen
 uuid: eba9cf92-f0c8-4394-8532-0de9a2e7b103
 exl-id: 24f90732-31a6-436d-862b-e6871d279c7a
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+source-git-commit: c7c5da62b32f6a56152e1c09a965facfc601cade
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -36,4 +36,4 @@ Es wird empfohlen, ein eigenes technisches Benutzerkonto für die Arbeit mit dem
 * Ermitteln Sie, welcher Dienst die [!DNL API] aufruft (z. B. Aufrufe von einer Client-App, die unsere [!DNL API]s verwenden oder Massenänderungen vornehmen).
 * Gewähren Sie unterbrechungsfreien Zugriff auf die [!DNL API]s. Ein an einen bestimmten Mitarbeiter gebundenes Konto kann gelöscht werden, wenn er das Unternehmen verlässt. Dadurch wird verhindert, dass Ihre Kunden mit dem verfügbaren [!DNL API]-Code arbeiten. Ein generisches Konto, das nicht an einen bestimmten Mitarbeiter gebunden ist, hilft, dieses Problem zu vermeiden.
 
-Nehmen wir als Beispiel oder Anwendungsfall für diesen Kontotyp an, Ihre Kunden möchten mit den [Tools für die Massenverwaltung](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bult-management-tools/bulk-management-intro.html) viele Segmente gleichzeitig ändern. Dazu benötigen sie [!DNL API] Zugriff. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches [!DNL API]-Benutzerkonto mit den entsprechenden Anmeldeinformationen, Schlüsseln und Geheimnissen, um [!DNL API]-Aufrufe durchzuführen. Dies ist auch dann nützlich, wenn die Kunden eigene Anwendungen entwickeln, die die [!DNL Audience Manager] [!DNL API]s verwenden.
+Nehmen wir als Beispiel oder Anwendungsfall für diesen Kontotyp an, Ihre Kunden möchten mit den [Tools für die Massenverwaltung](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html?lang=en) viele Segmente gleichzeitig ändern. Dazu benötigen sie [!DNL API] Zugriff. Anstatt einem bestimmten Benutzer Berechtigungen hinzuzufügen, erstellen Sie ein unspezifisches [!DNL API]-Benutzerkonto mit den entsprechenden Anmeldeinformationen, Schlüsseln und Geheimnissen, um [!DNL API]-Aufrufe durchzuführen. Dies ist auch dann nützlich, wenn die Kunden eigene Anwendungen entwickeln, die die [!DNL Audience Manager] [!DNL API]s verwenden.
