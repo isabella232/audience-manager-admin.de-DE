@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Audience Manager Admin-Handbuch
 breadcrumb-title: Administratorenanleitung
 user-guide-description: Mit dem Audience Manager Admin-Tool können Sie Firmen, Server, Berichte, Formate und Benutzer hinzufügen und konfigurieren. Sie können außerdem Ihr persönliches Profil anzeigen und bearbeiten.
-source-git-commit: 5074b73a4ffa9be305cfd753cb4a1efdfeeb9be3
+source-git-commit: 25a00b3e877eab3136e70e924d87d011f44ba52c
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 100%
+source-wordcount: '187'
+ht-degree: 96%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 100%
    + [Verwalten von Firmenbeschränkungen](companies/admin-company-limits.md)
    + [Verwalten von Firmenbenutzern](companies/admin-manage-company-users.md)
    + [Filtern von ausgehenden Daten nur nach aktiven Benutzern](companies/outbound-active-user-filter.md)
+   + [Onboarding-Zugriff für Zweitanbieterdaten verwalten](companies/admin-manage-onboarding-access.md)
 + Server {#servers}
    + [Serverübersicht](admin-servers/admin-servers.md)
    + [Erstellen und Bearbeiten von FTP-Servern](admin-servers/create-ftp-server.md)
