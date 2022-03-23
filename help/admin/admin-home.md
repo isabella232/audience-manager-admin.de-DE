@@ -5,16 +5,20 @@ seo-title: Audience Manager Admin Home
 title: Audience Manager Admin – Startseite
 uuid: 4534b622-4c8d-4c42-8019-1614faaba9d6
 exl-id: 27316802-9c98-41f5-af3e-edc11e572e29
-source-git-commit: 79415eba732c2a6d50f04124774664f788ccc78c
+source-git-commit: e12731066834df18b44e6737fe8c1264d316f7fd
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 87%
+source-wordcount: '212'
+ht-degree: 75%
 
 ---
 
 # Audience Manager Admin – Startseite {#audience-manager-admin-home}
 
 Mit dem Audience Manager Admin-Tool können Sie Firmen, Server, Berichte, Formate und Benutzer hinzufügen und konfigurieren. Sie können außerdem Ihr persönliches Profil anzeigen und bearbeiten.
+
+>[!IMPORTANT]
+>
+> Die Zielgruppe für dieses Dokumentations-Repository sind Adobe-interne Mitarbeiter. Wenn Sie Audience Manager sind, navigieren Sie zur [Übersicht über das Audience Manager-Handbuch](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html).
 
 <table id="table_882B0982144442F79328A4FA45BD5C7E" frame="none"> 
  <tbody> 
